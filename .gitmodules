@@ -1,0 +1,3 @@
+[submodule "target/chimera/deps/chimera-sdk"]
+	path = target/chimera/deps/chimera-sdk
+	url = git@github.com:Xeratec/chimera-sdk.git

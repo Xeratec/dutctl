@@ -7,3 +7,5 @@
 **/*.log
 **/shmoo/runs*
 **/shmoo/*.pdf
+
+**/runs/

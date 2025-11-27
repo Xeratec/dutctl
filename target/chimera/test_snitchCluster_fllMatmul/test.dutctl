@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2025 ETH Zurich and University of Bologna
+# SPDX-License-Identifier: Apache-2.0
+
+run
+-n1
+-i common/instr.yml
+-o0 common/chimera.openocd.hs2.tcl
+-g0 test_snitchCluster_fllMatmul/test.gdb
+--uart0 /dev/ttyUSB0:9600
+-l test_snitchCluster_fllMatmul/logs

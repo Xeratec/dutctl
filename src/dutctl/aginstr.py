@@ -116,7 +116,7 @@ def set_psu_opmode(instr: Instr, opmode: str = 'OFF'):
 def set_psu_gpio_state(instr: Instr, pin: int = 1, val: bool = True):
     assert pin > 0
     instr.write(f'DIGITAL:PIN{pin}:FUNCTION DIO')
-    instr.write(f'DIGITAL:PIN{pin}:POLARITY POSITIVE')
+    instr.write(f'DIGITAL:PIN{pin}:POLARITY NEGATIVE')
     instr.write(f'DIGITAL:OUTPUT:DATA {int(val)}')
 
 
