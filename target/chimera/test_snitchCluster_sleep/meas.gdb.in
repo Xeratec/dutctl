@@ -6,7 +6,7 @@ target extended-remote localhost:3333
 monitor reset halt
 
 # Load binary
-load deps/chimera-sdk/build/bin/test_host_sleep
+load deps/chimera-sdk/build/bin/test_snitchCluster_sleep
 
 set {int}0x03000000=1
 set {int}0x03000004=1
