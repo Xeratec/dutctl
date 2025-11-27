@@ -29,15 +29,15 @@ runs/summary.json:
 	python3 $(DUTCTL_ROOT)/util/parse_runs.py $(RUN) golden.json > $(RUN)/summary.json
 
 plot-shmoo: runs/summary.json
-	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/shmoo.py -m energy_efficiency -o shmoo_energy_efficiency.png $(RUN)/summary.json
-	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/shmoo.py -m power -o shmoo_power.png $(RUN)/summary.json
-	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/shmoo.py -m ops_per_second -o shmoo_ops_per_second.png $(RUN)/summary.json
-	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/shmoo.py -m ops_per_cycle -o shmoo_ops_per_cycle.png $(RUN)/summary.json
+	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/shmoo.py -m energy_efficiency -o $(RUN)/shmoo_energy_efficiency.png $(RUN)/summary.json
+	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/shmoo.py -m power -o $(RUN)/shmoo_power.png $(RUN)/summary.json
+	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/shmoo.py -m ops_per_second -o $(RUN)/shmoo_ops_per_second.png $(RUN)/summary.json
+	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/shmoo.py -m ops_per_cycle -o $(RUN)/shmoo_ops_per_cycle.png $(RUN)/summary.json
 
 plot-xy: runs/summary.json
-	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/xy.py -m energy_efficiency -o xy_energy_efficiency.png $(RUN)/summary.json
-	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/xy.py -m power -o xy_power.png $(RUN)/summary.json
-	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/xy.py -m ops_per_second -o xy_ops_per_second.png $(RUN)/summary.json
-	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/xy.py -m ops_per_cycle -o xy_ops_per_cycle.png $(RUN)/summary.json
+	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/xy.py -m energy_efficiency -o $(RUN)/xy_energy_efficiency.png $(RUN)/summary.json
+	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/xy.py -m power -o $(RUN)/xy_power.png $(RUN)/summary.json
+	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/xy.py -m ops_per_second -o $(RUN)/xy_ops_per_second.png $(RUN)/summary.json
+	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/xy.py -m ops_per_cycle -o $(RUN)/xy_ops_per_cycle.png $(RUN)/summary.json
 
 plot: plot-shmoo plot-xy

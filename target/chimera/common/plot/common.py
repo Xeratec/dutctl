@@ -99,10 +99,6 @@ def load_shmoo_data(json_path: Path) -> Dict[str, Dict[str, Any]]:
             "cfg_fll_MHz": entry.get("cfg_fll_MHz"),
         }
 
-        import pprint
-        if entry.get("cfg_fll_MHz") == 425:
-            print(f"Power {result[key]['power']} mW at {entry.get('cfg_core_mV')} mV and {entry.get('cfg_fll_MHz')} MHz")
-            print(result[key])
     return result
 
 

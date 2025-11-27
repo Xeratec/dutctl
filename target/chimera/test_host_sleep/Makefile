@@ -29,10 +29,10 @@ runs/summary.json:
 	python3 $(DUTCTL_ROOT)/util/parse_runs.py $(RUN) golden.json > $(RUN)/summary.json
 
 plot-shmoo: runs/summary.json
-	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/shmoo.py -m power -o shmoo_power.png $(RUN)/summary.json
+	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/shmoo.py -m power -o $(RUN)/shmoo_power.png $(RUN)/summary.json
 
 plot-xy: runs/summary.json
-	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/xy.py -m power -o xy_power.png $(RUN)/summary.json
+	python3 $(DUTCTL_ROOT)/target/chimera/common/plot/xy.py -m power -o $(RUN)/xy_power.png $(RUN)/summary.json
 
 plot: plot-shmoo plot-xy
 
