@@ -272,6 +272,7 @@ def meas_vol_cur(instrs: dict, psu_configs: dict, measure_all: bool = False) -> 
             ret[pname][cidx]['cur'] = meas_pch_vol_or_cur(instrs[pname], 'CURR', cidx)
             if ccfg.measure_vol:
                 ret[pname][cidx]['vol'] = meas_pch_vol_or_cur(instrs[pname], 'VOLT', cidx)
+                ret[pname][cidx]['power'] = ret[pname][cidx]['vol'] * ret[pname][cidx]['cur']
     return ret
 
 

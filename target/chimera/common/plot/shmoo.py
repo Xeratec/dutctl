@@ -12,15 +12,18 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
-from common import load_shmoo_data, build_grid, generate_make_targets, parse_args, METRIC_LABELS
+from common import load_data, infer_scales, build_grid, generate_make_targets, parse_args, METRIC_LABELS, METRIC_SCALES
 
 def plot_shmoo(
-    voltages_V: np.ndarray,
-    freqs_MHz: np.ndarray,
+    voltages: np.ndarray,
+    freqs: np.ndarray,
     values: np.ndarray,
     correct: np.ndarray,
     metric: str,
     output: Path,
+    v_scale: float,
+    f_scale: float,
+    m_scale: float,
     title_suffix: str = "",
 ) -> None:
     """
@@ -30,7 +33,7 @@ def plot_shmoo(
     """
     masked_vals = np.ma.masked_invalid(values)
 
-    fig, ax = plt.subplots(figsize=(10, 4))
+    fig, ax = plt.subplots(figsize=(10, 6))
 
     # colormap similar to the example: truncated plasma
     vmin = np.nanmin(values)
@@ -54,20 +57,23 @@ def plot_shmoo(
     )
 
     # Axes ticks/labels
-    ax.set_xticks(np.arange(len(freqs_MHz)))
-    ax.set_xticklabels([f"{int(f)}" for f in freqs_MHz], rotation=45, ha="right")
-    ax.set_xlabel("Frequency [MHz]")
+    ax.set_xticks(np.arange(len(freqs)))
+    ax.set_xticklabels([f"{int(f)}" for f in freqs], rotation=45, ha="right")
+    ax.set_xlabel("Frequency " + f"{METRIC_SCALES[f_scale]}Hz")
 
-    ax.set_yticks(np.arange(len(voltages_V)))
-    ax.set_yticklabels([f"{v:.2f} V" for v in voltages_V])
-    ax.set_ylabel("Core Voltage [V]")
+    ax.set_yticks(np.arange(len(voltages)))
+    ax.set_yticklabels([f"{v:.2f} {METRIC_SCALES[v_scale]}V" for v in voltages])
+    ax.set_ylabel("Core Voltage " + f"{METRIC_SCALES[v_scale]}V")
 
     pretty_metric = METRIC_LABELS.get(metric, metric)
+    unit = pretty_metric[0]
+    if pretty_metric[1]:
+        unit += f" [{METRIC_SCALES[m_scale]}{pretty_metric[1]}]"
 
     if title_suffix:
-        ax.set_title(f"{pretty_metric} ({title_suffix})")
+        ax.set_title(f"{unit} ({title_suffix})")
     else:
-        ax.set_title(f"{pretty_metric}")
+        ax.set_title(unit)
 
     # Overlay numbers / X marks
     for i in range(values.shape[0]):
@@ -89,7 +95,7 @@ def plot_shmoo(
     ax.invert_yaxis()
 
     cbar = fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
-    cbar.set_label(pretty_metric)
+    cbar.set_label(unit)
 
     # Label the lowest and highest values on the colorbar
     # calulcate number of decimals based on range
@@ -114,19 +120,27 @@ def plot_shmoo(
 def main() -> None:
     args = parse_args()
 
-    data = load_shmoo_data(args.json)
-    voltages_V, freqs_MHz, grid_vals, grid_correct = build_grid(data, args.metric)
+    data = load_data(args.json)
 
-    if args.print_make_targets:
-        generate_make_targets(voltages_V, freqs_MHz, grid_correct)
+    v_scale = 1
+    f_scale = 1e-6
+    m_scale = infer_scales(data, args.metric)
+
+    voltages, freqs, grid_vals, grid_correct = build_grid(data, args.metric, v_scale=v_scale, f_scale=f_scale, metric_scale=m_scale)
+
+    if args.print_make_targets > 0:
+        generate_make_targets(voltages, freqs, grid_correct, args.print_make_targets)
 
     plot_shmoo(
-        voltages_V,
-        freqs_MHz,
+        voltages,
+        freqs,
         grid_vals,
         grid_correct,
         metric=args.metric,
         output=args.output,
+        v_scale=v_scale,
+        f_scale=f_scale,
+        m_scale=m_scale,
         title_suffix=args.title_suffix,
     )
 

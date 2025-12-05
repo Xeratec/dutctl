@@ -11,15 +11,29 @@ from typing import Any, Dict, Optional, Tuple, List
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
+import pandas as pd
+
+from typing import Tuple, Literal
 
 # Pretty labels for metrics
 METRIC_LABELS = {
-    "ops_per_cycle": "Op per Cycle",
-    "ops_per_second": "MOp per Second",
-    "power": "Power [mW]",
-    "energy_efficiency": "Energy Efficiency [GOp/J]",
+    "ops_per_cycle": ["Op per Cycle", ""],
+    "ops_per_second": ["Op per Second", "Op/s"],
+    "power": ["Power", "W"],
+    "energy_efficiency": ["Energy Efficiency", "Op/J"],
+    "runtime_cycles": ["Runtime", "cycles"],
 }
 
+METRIC_SCALES = {
+    1: "",
+    1e-3: "k",
+    1e-6: "M",
+    1e-9: "G",
+    1e-12: "T",
+    1e3: "m",
+    1e6: "µ",
+    1e9: "n",
+}
 
 # ----------------- Data loading & processing ----------------- #
 
@@ -55,16 +69,17 @@ def _extract_power(meas_core_v: Dict[str, Any]) -> Optional[float]:
     return cur * vol
 
 
-def load_shmoo_data(json_path: Path) -> Dict[str, Dict[str, Any]]:
+def load_data(json_path: Path) -> Dict[str, Dict[str, Any]]:
     """
     Read the JSON file and return a dictionary with the following keys
     for each datapoint:
 
     - correct
     - meas_ops_per_cycle
-    - meas_ops_per_second
-    - power
-    - energy_efficiency
+    - meas_runtime_cycles
+    - meas_ops_per_second (MOp/s)
+    - power (mW)
+    - energy_efficiency (MOp/J)
     - cfg_core_mV
     - cfg_fll_MHz
 
@@ -76,96 +91,128 @@ def load_shmoo_data(json_path: Path) -> Dict[str, Dict[str, Any]]:
     result: Dict[str, Dict[str, Any]] = {}
 
 
-    for key, entry in raw.items():
+    for key, entry in sorted(raw.items()):
         correct = bool(entry.get("correct", False))
 
         ops_per_cycle = entry.get("meas_ops_per_cycle")
         ops_per_second = entry.get("meas_ops_per_second")
+        runtime_cycles = entry.get("meas_runtime_cycles")
         meas_core_v = entry.get("meas_core_V", {})
+        cfg_core_mV = entry.get("cfg_core_mV")
+        cfg_fll_MHz = entry.get("cfg_fll_MHz")
         power = _extract_power(meas_core_v) if meas_core_v else None
 
         if correct and ops_per_second is not None and power not in (None, 0):
-            energy_eff = ops_per_second / power
+            energy_eff = ops_per_second*1E6 / power
         else:
             energy_eff = None
 
         result[key] = {
             "correct": correct,
             "ops_per_cycle": ops_per_cycle if correct else None,
-            "ops_per_second": ops_per_second if correct else None,
-            "power": power*1000 if correct and power is not None else None,
-            "energy_efficiency": energy_eff/1000 if energy_eff is not None else None,
-            "cfg_core_mV": entry.get("cfg_core_mV"),
-            "cfg_fll_MHz": entry.get("cfg_fll_MHz"),
+            "ops_per_second": ops_per_second*1E6 if correct else None,
+            "runtime_cycles": runtime_cycles if correct else None,
+            "power": power if correct and power is not None else None,
+            "energy_efficiency": energy_eff if energy_eff is not None else None,
+            "cfg_core": cfg_core_mV * 1E-3 if cfg_core_mV is not None else None,
+            "cfg_fll": cfg_fll_MHz * 1E6 if cfg_fll_MHz is not None else None,
         }
 
-    return result
+    df = pd.DataFrame.from_dict(result, orient="index")
+    return df
 
+
+def infer_scales(df: pd.DataFrame, metric: str) -> float:
+    """
+    Infer an appropriate metric scale based on the maximum value in the DataFrame.
+    """
+    max_metric = df[metric].max()
+    if pd.isna(max_metric) or max_metric == 0:
+        return 1.0
+    elif max_metric >= 1e13:
+        return 1e-12
+    elif max_metric >= 1e10:
+        return 1e-9
+    elif max_metric >= 1e7:
+        return 1e-6
+    elif max_metric >= 1e4:
+        return 1e-3
+    elif max_metric >= 1e1:
+        return 1.0
+    elif max_metric < 1:
+        return 1e3
+    elif max_metric < 1e-3:
+        return 1e6
+    elif max_metric < 1e-6:
+        return 1e9
+    else:
+        return 1.0
 
 def build_grid(
-    data: Dict[str, Dict[str, Any]],
-    metric: str
+    df: pd.DataFrame,
+    metric: str,
+    *,
+    v_scale: float = 1,          # multiply cfg_core by this for output axis (e.g. 1e3 -> mV)
+    f_scale: float = 1e-6,          # multiply cfg_fll by this for output axis (e.g. 1e-6 -> MHz)
+    metric_scale: float = 1.0,     # multiply metric by this (e.g. 1e-9 -> GOps/J if df is Ops/J)
 ) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
     """
-    Build 2D grids (voltage x frequency) for the chosen metric.
+    Build 2D grids (voltage x frequency) for the chosen metric from a DataFrame,
+    with optional scaling applied in the OUTPUT.
+
+    Expected df columns (base units, no scaling):
+      - cfg_core : voltage in V
+      - cfg_fll  : frequency in Hz
+      - correct  : bool
+      - <metric> : metric in base units (e.g., Ops/J)
+
+    Scaling:
+      - output voltage axis uses cfg_core * v_scale
+      - output freq axis uses cfg_fll * f_scale
+      - grid metric uses metric * metric_scale
 
     Returns:
-      voltages_V: 1D array of unique voltages in V, sorted ascending
-      freqs_MHz:  1D array of unique freqs in MHz, sorted ascending
-      grid_vals:  2D array [len(voltages), len(freqs)] with metric values (float or nan)
+      voltages_out: 1D array of unique voltages (scaled), sorted ascending
+      freqs_out:    1D array of unique freqs (scaled), sorted ascending
+      grid_vals:    2D array [len(voltages), len(freqs)] with scaled metric values
       grid_correct: 2D boolean array for correctness
     """
-    # Collect all voltages and freqs
-    volts_mV: List[int] = []
-    freqs_MHz: List[int] = []
+    use = df[["cfg_core", "cfg_fll", "correct", metric]].copy()
+    use["cfg_core"] = pd.to_numeric(use["cfg_core"], errors="coerce")
+    use["cfg_fll"] = pd.to_numeric(use["cfg_fll"], errors="coerce")
+    use[metric] = pd.to_numeric(use[metric], errors="coerce")
+    use["correct"] = use["correct"].astype(bool)
 
-    for entry in data.values():
-        v = entry.get("cfg_core_mV")
-        f = entry.get("cfg_fll_MHz")
-        if v is not None and f is not None:
-            volts_mV.append(v)
-            freqs_MHz.append(f)
+    # Apply scaling for output
+    use["v_out"] = use["cfg_core"] * v_scale
+    use["f_out"] = use["cfg_fll"] * f_scale
+    use["m_out"] = use[metric] * metric_scale
 
+    # Unique axes
+    unique_volts = np.array(sorted(use["v_out"].dropna().unique()), dtype=float)
+    unique_freqs = np.array(sorted(use["f_out"].dropna().unique()), dtype=float)
 
-    unique_volts_mV = sorted(set(volts_mV))
-    unique_freqs_MHz = sorted(set(freqs_MHz))
-
-    voltages_V = np.array(unique_volts_mV, dtype=float) / 1000.0
-    freqs_MHz_arr = np.array(unique_freqs_MHz, dtype=float)
-
-    # Initialize grid with NaNs
-    grid_vals = np.full(
-        (len(unique_volts_mV), len(unique_freqs_MHz)), np.nan, dtype=float
-    )
+    grid_vals = np.full((len(unique_volts), len(unique_freqs)), np.nan, dtype=float)
     grid_correct = np.zeros_like(grid_vals, dtype=bool)
 
-    # Fill grid
-    for entry in data.values():
-        v_mV = entry.get("cfg_core_mV")
-        f_MHz = entry.get("cfg_fll_MHz")
-        if v_mV is None or f_MHz is None:
+    v_to_i = {v: i for i, v in enumerate(unique_volts)}
+    f_to_j = {f: j for j, f in enumerate(unique_freqs)}
+
+    # Fill grid (if duplicates exist, later rows overwrite earlier ones)
+    for v, f, correct, val in use[["v_out", "f_out", "correct", "m_out"]].itertuples(index=False, name=None):
+        if pd.isna(v) or pd.isna(f):
             continue
 
-        try:
-            i = unique_volts_mV.index(v_mV)
-            j = unique_freqs_MHz.index(f_MHz)
-        except ValueError:
-            continue  # shouldn't happen, but be safe
+        i = v_to_i[float(v)]
+        j = f_to_j[float(f)]
 
-        val = entry.get(metric)
-        correct = bool(entry.get("correct", False))
+        grid_correct[i, j] = bool(correct)
+        grid_vals[i, j] = float(val) if (correct and pd.notna(val)) else np.nan
 
-        if correct and val is not None:
-            grid_vals[i, j] = float(val)
-        else:
-            grid_vals[i, j] = np.nan
-
-        grid_correct[i, j] = correct
-
-    return voltages_V, freqs_MHz_arr, grid_vals, grid_correct
+    return unique_volts, unique_freqs, grid_vals, grid_correct
 
 
-def generate_make_targets(voltages_V: np.ndarray, freqs_MHz: np.ndarray, grid_correct: np.ndarray) -> None:
+def generate_make_targets(voltages_V: np.ndarray, freqs_MHz: np.ndarray, grid_correct: np.ndarray, print_level: int) -> None:
     """
     For each voltage, print a make target listing failed measurements up to the
     highest correct frequency, and also print the first frequency above that
@@ -184,114 +231,16 @@ def generate_make_targets(voltages_V: np.ndarray, freqs_MHz: np.ndarray, grid_co
                 make_targets.extend(f"meas-{int(v*1000)}.{int(f)}" for f in failed)
             # first frequency greater than max_freq, if it exists
             next_freq = next((f for f in freqs_MHz if f > max_freq), None)
-            if max_freq:
-                make_targets.append(f"meas-{int(v*1000)}.{int(max_freq)}")
-            if next_freq is not None:
-                make_targets.append(f"meas-{int(v*1000)}.{int(next_freq)}")
+            if print_level > 1:
+                if max_freq:
+                    make_targets.append(f"meas-{int(v*1000)}.{int(max_freq)}")
+                if next_freq is not None:
+                    make_targets.append(f"meas-{int(v*1000)}.{int(next_freq)}")
             if make_targets:
                 print(f"make {' '.join(make_targets)}")
         else:
             # no correct frequencies: nothing to do (original behaviour printed nothing)
             continue
-
-# ----------------- Plotting ----------------- #
-
-def plot_shmoo(
-    voltages_V: np.ndarray,
-    freqs_MHz: np.ndarray,
-    values: np.ndarray,
-    correct: np.ndarray,
-    metric: str,
-    output: Path,
-    title_suffix: str = "",
-) -> None:
-    """
-    Plot a single-panel shmoo plot (Voltage vs Frequency) colored by `values`.
-
-    Incorrect or missing points are marked with a red 'X'.
-    """
-    masked_vals = np.ma.masked_invalid(values)
-
-    fig, ax = plt.subplots(figsize=(10, 4))
-
-    # colormap similar to the example: truncated plasma
-    vmin = np.nanmin(values)
-    vmax = np.nanmax(values)
-
-    if np.isnan(vmin) or np.isnan(vmax):
-        raise RuntimeError("All values are NaN – nothing to plot.")
-
-    orig_cmap = plt.cm.plasma
-    truncated_colors = orig_cmap(np.linspace(0.0, 0.9, 256))
-    cmap = mcolors.LinearSegmentedColormap.from_list("plasma_trunc", truncated_colors)
-    cmap.set_bad(color="#ffffff")
-
-    im = ax.imshow(
-        masked_vals,
-        cmap=cmap,
-        aspect="auto",
-        vmin=vmin,
-        vmax=vmax,
-        origin="upper",
-    )
-
-    # Axes ticks/labels
-    ax.set_xticks(np.arange(len(freqs_MHz)))
-    ax.set_xticklabels([f"{int(f)}" for f in freqs_MHz], rotation=45, ha="right")
-    ax.set_xlabel("Frequency [MHz]")
-
-    ax.set_yticks(np.arange(len(voltages_V)))
-    ax.set_yticklabels([f"{v:.2f} V" for v in voltages_V])
-    ax.set_ylabel("Core Voltage [V]")
-
-    pretty_metric = METRIC_LABELS.get(metric, metric)
-
-    if title_suffix:
-        ax.set_title(f"{pretty_metric} ({title_suffix})")
-    else:
-        ax.set_title(f"{pretty_metric}")
-
-    # Overlay numbers / X marks
-    for i in range(values.shape[0]):
-        for j in range(values.shape[1]):
-            val = values[i, j]
-            if np.isnan(val) or not correct[i, j]:
-                ax.text(
-                    j,
-                    i,
-                    "X",
-                    ha="center",
-                    va="center",
-                    fontsize=9,
-                    color="red",
-                    fontweight="bold",
-                )
-
-    # Invert the y-axis to have low voltages at the bottom
-    ax.invert_yaxis()
-
-    cbar = fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
-    cbar.set_label(pretty_metric)
-
-    # Label the lowest and highest values on the colorbar
-    # calulcate number of decimals based on range
-    range_val = vmax - vmin
-    if range_val >= 100:
-        decimals = 0
-    elif range_val >= 10:
-        decimals = 1
-    elif range_val >= 1:
-        decimals = 2
-    else:
-        decimals = 3
-
-    cbar.ax.text(1, 1.02, f"{vmax:.{decimals}f}", transform=cbar.ax.transAxes, va="bottom", ha="center")
-    cbar.ax.text(1, -0.02, f"{vmin:.{decimals}f}", transform=cbar.ax.transAxes, va="top", ha="center")
-
-    plt.tight_layout()
-    fig.savefig(output, format=output.suffix.lstrip("."), bbox_inches="tight")
-    plt.close(fig)
-
 
 # ----------------- CLI ----------------- #
 
@@ -337,27 +286,6 @@ def parse_args() -> argparse.Namespace:
     )
     return parser.parse_args()
 
-
-def main() -> None:
-    args = parse_args()
-
-    data = load_shmoo_data(args.json)
-    voltages_V, freqs_MHz, grid_vals, grid_correct = build_grid(data, args.metric)
-
-    if args.print_make_targets:
-        generate_make_targets(voltages_V, freqs_MHz, grid_correct)
-
-    plot_shmoo(
-        voltages_V,
-        freqs_MHz,
-        grid_vals,
-        grid_correct,
-        metric=args.metric,
-        output=args.output,
-        title_suffix=args.title_suffix,
-    )
-
-
 # ----------------- CLI ----------------- #
 
 def parse_args() -> argparse.Namespace:
@@ -397,7 +325,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "-p",
         "--print-make-targets",
-        action="store_true",
+        action="count",
+        default=0,
         help="Print make targets for missing measurements.",
     )
     return parser.parse_args()

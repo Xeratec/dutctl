@@ -9,3 +9,4 @@
 **/shmoo/*.pdf
 
 **/runs/
+**/runs_*/**/script.gdb
