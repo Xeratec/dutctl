@@ -1,0 +1,11 @@
+[
+{"cfg_repetitions": 12000},
+{"cfg_core_mV": 790},
+{"cfg_fll_MHz": 300},
+{"meas_fll_MHz": 300.7238},
+{"meas_core_V": {"E36312A_1": {"1": {"cur": 0.27676, "vol": 0.789925, "power": 0.218619643}}}},
+{"meas_ops_per_cycle": 1.65953},
+{"meas_ops_per_second": 497.711613},
+{"meas_runtime_cycles": 1422425333},
+{"meas_errors": 0}
+]

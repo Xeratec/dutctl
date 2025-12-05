@@ -1,0 +1,7667 @@
+{
+  "850.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.240906,
+          "vol": 0.84961,
+          "power": 0.20467614666
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.491455,
+    "meas_ops_per_second": 193436.25,
+    "meas_runtime_cycles": 271038927,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.12821,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.436963,
+          "vol": 0.779745,
+          "power": 0.340719714435
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.430297,
+    "meas_ops_per_second": 580286.25,
+    "meas_runtime_cycles": 813148856,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.24987,
+          "vol": 0.729641,
+          "power": 0.18231539667
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.439941,
+    "meas_ops_per_second": 309486.0,
+    "meas_runtime_cycles": 433676703,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.1674,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.520732,
+          "vol": 0.829848,
+          "power": 0.432128408736
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.53247,
+    "meas_ops_per_second": 657700.25,
+    "meas_runtime_cycles": 921507867,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.518,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.340809,
+          "vol": 0.769564,
+          "power": 0.26227433727599997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.520263,
+    "meas_ops_per_second": 425568.0,
+    "meas_runtime_cycles": 596274511,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.525": {
+    "correct": false
+  },
+  "780.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20659,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.52285,
+          "vol": 0.779745,
+          "power": 0.40768967325000005
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.410156,
+    "meas_ops_per_second": 735019.75,
+    "meas_runtime_cycles": 1030001983,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.4368,
+          "vol": 0.839429,
+          "power": 0.3666625872
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.542846,
+    "meas_ops_per_second": 502950.5,
+    "meas_runtime_cycles": 704677767,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 575,
+    "meas_fll_MHz": 575.44651,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.450816,
+          "vol": 0.829848,
+          "power": 0.37410875596800003
+        }
+      }
+    },
+    "correct": false
+  },
+  "730.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.08657,
+          "vol": 0.729641,
+          "power": 0.06316502136999999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.609985,
+    "meas_ops_per_second": 38690.0,
+    "meas_runtime_cycles": 54203634,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 575,
+    "meas_fll_MHz": 575.44651,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.427185,
+          "vol": 0.809687,
+          "power": 0.345886141095
+        }
+      }
+    },
+    "correct": false
+  },
+  "800.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.111994,
+          "vol": 0.799506,
+          "power": 0.089539874964
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.614746,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203463,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "840.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.15076,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.506879,
+          "vol": 0.839429,
+          "power": 0.42548893209099997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.481445,
+    "meas_ops_per_second": 618992.0,
+    "meas_runtime_cycles": 867330106,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.5377,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.410561,
+          "vol": 0.869771,
+          "power": 0.357094051531
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.572387,
+    "meas_ops_per_second": 425581.75,
+    "meas_runtime_cycles": 596254431,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3755,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.280509,
+          "vol": 0.869771,
+          "power": 0.243978593439
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.527099,
+    "meas_ops_per_second": 232128.0,
+    "meas_runtime_cycles": 325239202,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.12821,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.415125,
+          "vol": 0.749403,
+          "power": 0.31109592037500006
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.44519,
+    "meas_ops_per_second": 580290.0,
+    "meas_runtime_cycles": 813141083,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20856,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.573698,
+          "vol": 0.839429,
+          "power": 0.481578738442
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.426147,
+    "meas_ops_per_second": 735024.5,
+    "meas_runtime_cycles": 1029991281,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20856,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.592766,
+          "vol": 0.859591,
+          "power": 0.509536318706
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.501098,
+    "meas_ops_per_second": 735062.5,
+    "meas_runtime_cycles": 1029941412,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22717,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.578261,
+          "vol": 0.819668,
+          "power": 0.473982037348
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.451782,
+    "meas_ops_per_second": 773725.0,
+    "meas_runtime_cycles": 1084183487,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.238136,
+          "vol": 0.799506,
+          "power": 0.190391160816
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.515258,
+    "meas_ops_per_second": 232126.5,
+    "meas_runtime_cycles": 325241687,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.199674,
+          "vol": 0.769564,
+          "power": 0.153661922136
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.478515,
+    "meas_ops_per_second": 193433.75,
+    "meas_runtime_cycles": 271041196,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.557,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.107268,
+          "vol": 0.789725,
+          "power": 0.0847122213
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.614501,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203474,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9535,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.294687,
+          "vol": 0.769564,
+          "power": 0.226780506468
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.483764,
+    "meas_ops_per_second": 348183.0,
+    "meas_runtime_cycles": 487872454,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1915,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.166753,
+          "vol": 0.809687,
+          "power": 0.13501773631100003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.535888,
+    "meas_ops_per_second": 116064.75,
+    "meas_runtime_cycles": 162618674,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 600,
+    "meas_fll_MHz": 600.46512,
+    "correct": false
+  },
+  "740.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.842,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.114928,
+          "vol": 0.739821,
+          "power": 0.08502614788799999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.59436,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408351,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20462,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.495145,
+          "vol": 0.759583,
+          "power": 0.376103724535
+        }
+      }
+    },
+    "correct": false
+  },
+  "740.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.518,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.322067,
+          "vol": 0.739821,
+          "power": 0.23827193000699998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.491699,
+    "meas_ops_per_second": 425559.75,
+    "meas_runtime_cycles": 596285523,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3755,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.267797,
+          "vol": 0.84961,
+          "power": 0.22752300917
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.517089,
+    "meas_ops_per_second": 232126.5,
+    "meas_runtime_cycles": 325241319,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.385952,
+          "vol": 0.769764,
+          "power": 0.29709195532800003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.504028,
+    "meas_ops_per_second": 502937.5,
+    "meas_runtime_cycles": 704695437,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 575,
+    "correct": false
+  },
+  "790.575": {
+    "correct": false
+  },
+  "720.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.518,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.310333,
+          "vol": 0.71966,
+          "power": 0.22333424678
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.468627,
+    "meas_ops_per_second": 425551.5,
+    "meas_runtime_cycles": 596294407,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.274805,
+          "vol": 0.819668,
+          "power": 0.22524886474
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.541992,
+    "meas_ops_per_second": 270819.5,
+    "meas_runtime_cycles": 379442081,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.8227,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.610041,
+          "vol": 0.829848,
+          "power": 0.506241303768
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.4906,
+    "meas_ops_per_second": 812432.25,
+    "meas_runtime_cycles": 1138364066,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16937,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.496123,
+          "vol": 0.799506,
+          "power": 0.396653315238
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.523193,
+    "meas_ops_per_second": 657696.0,
+    "meas_runtime_cycles": 921513392,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.1096,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.452446,
+          "vol": 0.829848,
+          "power": 0.375461408208
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.649169,
+    "meas_ops_per_second": 541674.0,
+    "meas_runtime_cycles": 758831595,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.372589,
+          "vol": 0.749603,
+          "power": 0.279293832167
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.503662,
+    "meas_ops_per_second": 502937.5,
+    "meas_runtime_cycles": 704695595,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.133018,
+          "vol": 0.789925,
+          "power": 0.10507424365
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.590087,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408658,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "880.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3774,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.233083,
+          "vol": 0.879552,
+          "power": 0.20500861881600002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.504516,
+    "meas_ops_per_second": 154750.0,
+    "meas_runtime_cycles": 216829290,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.363299,
+          "vol": 0.769764,
+          "power": 0.27965449143599996
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.495727,
+    "meas_ops_per_second": 464247.0,
+    "meas_runtime_cycles": 650491578,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.390679,
+          "vol": 0.809687,
+          "power": 0.31632770747300004
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.541381,
+    "meas_ops_per_second": 464262.0,
+    "meas_runtime_cycles": 650472365,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 600,
+    "meas_fll_MHz": 600.46709,
+    "correct": false
+  },
+  "810.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.11157,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.436474,
+          "vol": 0.809687,
+          "power": 0.353407323638
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.604736,
+    "meas_ops_per_second": 541660.0,
+    "meas_runtime_cycles": 758853363,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9296,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.468906,
+          "vol": 0.879552,
+          "power": 0.412427210112
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.570312,
+    "meas_ops_per_second": 502960.25,
+    "meas_runtime_cycles": 704665258,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.2252,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.349609,
+          "vol": 0.739821,
+          "power": 0.25864807998899997
+        }
+      }
+    },
+    "correct": false
+  },
+  "740.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.232594,
+          "vol": 0.739821,
+          "power": 0.172077925674
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.513427,
+    "meas_ops_per_second": 270814.25,
+    "meas_runtime_cycles": 379449074,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.550": {
+    "correct": false
+  },
+  "800.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.287354,
+          "vol": 0.799506,
+          "power": 0.22974124712400001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.548339,
+    "meas_ops_per_second": 309508.0,
+    "meas_runtime_cycles": 433646319,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18798,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.510464,
+          "vol": 0.789925,
+          "power": 0.40322827520000004
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.392211,
+    "meas_ops_per_second": 696325.5,
+    "meas_runtime_cycles": 975802685,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13215,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.500197,
+          "vol": 0.85979,
+          "power": 0.43006437863
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.634643,
+    "meas_ops_per_second": 580361.25,
+    "meas_runtime_cycles": 813041516,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.12821,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.401598,
+          "vol": 0.729641,
+          "power": 0.293022366318
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.451416,
+    "meas_ops_per_second": 580293.75,
+    "meas_runtime_cycles": 813137766,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.11157,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.468091,
+          "vol": 0.84961,
+          "power": 0.39769479450999995
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.682373,
+    "meas_ops_per_second": 541688.0,
+    "meas_runtime_cycles": 758815374,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.128454,
+          "vol": 0.779745,
+          "power": 0.10016136423000001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.592285,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408502,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "780.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18798,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.501664,
+          "vol": 0.779745,
+          "power": 0.39116999568
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.376342,
+    "meas_ops_per_second": 696316.5,
+    "meas_runtime_cycles": 975812657,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.15076,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.443808,
+          "vol": 0.759583,
+          "power": 0.337109012064
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.478149,
+    "meas_ops_per_second": 618988.0,
+    "meas_runtime_cycles": 867331992,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20462,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.498567,
+          "vol": 0.749403,
+          "power": 0.373627605501
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.38916,
+    "meas_ops_per_second": 735005.5,
+    "meas_runtime_cycles": 1030015944,
+    "meas_errors": 46,
+    "correct": false
+  },
+  "740.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3776,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.162516,
+          "vol": 0.739821,
+          "power": 0.12023274963599999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.455078,
+    "meas_ops_per_second": 154745.0,
+    "meas_runtime_cycles": 216836229,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.199511,
+          "vol": 0.869771,
+          "power": 0.173528881981
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.528076,
+    "meas_ops_per_second": 116064.0,
+    "meas_runtime_cycles": 162619501,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16543,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.529043,
+          "vol": 0.839429,
+          "power": 0.444094036447
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.542602,
+    "meas_ops_per_second": 657704.5,
+    "meas_runtime_cycles": 921501821,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.525": {
+    "correct": false
+  },
+  "800.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.406976,
+          "vol": 0.799506,
+          "power": 0.32537975385600004
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.514648,
+    "meas_ops_per_second": 502940.75,
+    "meas_runtime_cycles": 704690641,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.557,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.103194,
+          "vol": 0.779745,
+          "power": 0.08046500553
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.616943,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203387,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3755,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.256878,
+          "vol": 0.829848,
+          "power": 0.213169694544
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.516967,
+    "meas_ops_per_second": 232126.5,
+    "meas_runtime_cycles": 325241346,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.281812,
+          "vol": 0.829848,
+          "power": 0.233861124576
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.541137,
+    "meas_ops_per_second": 270819.5,
+    "meas_runtime_cycles": 379442311,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.625": {
+    "correct": false
+  },
+  "720.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "810.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.8227,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.578587,
+          "vol": 0.809687,
+          "power": 0.468474372269
+        }
+      }
+    },
+    "correct": false
+  },
+  "800.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "880.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 625,
+    "meas_fll_MHz": 625.15671,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.516005,
+          "vol": 0.879552,
+          "power": 0.45385322976000003
+        }
+      }
+    },
+    "correct": false
+  },
+  "870.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.8424,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.648503,
+          "vol": 0.869771,
+          "power": 0.564049102813
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.474609,
+    "meas_ops_per_second": 812421.75,
+    "meas_runtime_cycles": 1138375854,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.269263,
+          "vol": 0.809687,
+          "power": 0.218018750681
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.54187,
+    "meas_ops_per_second": 270819.5,
+    "meas_runtime_cycles": 379442111,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 550,
+    "meas_fll_MHz": 550.10285,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.670341,
+          "vol": 0.869771,
+          "power": 0.5830431619109999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.527099,
+    "meas_ops_per_second": 851136.0,
+    "meas_runtime_cycles": 1192543683,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.397198,
+          "vol": 0.819668,
+          "power": 0.325570490264
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.546142,
+    "meas_ops_per_second": 464262.0,
+    "meas_runtime_cycles": 650470394,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.203748,
+          "vol": 0.779745,
+          "power": 0.15887148426
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.484863,
+    "meas_ops_per_second": 193435.0,
+    "meas_runtime_cycles": 271040056,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 575,
+    "meas_fll_MHz": 575.44454,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.435007,
+          "vol": 0.819668,
+          "power": 0.35656131767599997
+        }
+      }
+    },
+    "correct": false
+  },
+  "850.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.293384,
+          "vol": 0.84961,
+          "power": 0.24926198024
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.544189,
+    "meas_ops_per_second": 270819.5,
+    "meas_runtime_cycles": 379441550,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.1096,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.380411,
+          "vol": 0.729641,
+          "power": 0.277563462451
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.401977,
+    "meas_ops_per_second": 541590.0,
+    "meas_runtime_cycles": 758952857,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.301206,
+          "vol": 0.859591,
+          "power": 0.258913966746
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.544799,
+    "meas_ops_per_second": 270819.5,
+    "meas_runtime_cycles": 379441403,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7674,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.306095,
+          "vol": 0.829848,
+          "power": 0.25401232356000003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.539916,
+    "meas_ops_per_second": 309506.0,
+    "meas_runtime_cycles": 433648686,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.5377,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.39459,
+          "vol": 0.84961,
+          "power": 0.33524760989999997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.550903,
+    "meas_ops_per_second": 425576.25,
+    "meas_runtime_cycles": 596262699,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9535,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.305932,
+          "vol": 0.789925,
+          "power": 0.2416633351
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.4729,
+    "meas_ops_per_second": 348180.75,
+    "meas_runtime_cycles": 487875907,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.181258,
+          "vol": 0.729641,
+          "power": 0.132253268378
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.493408,
+    "meas_ops_per_second": 193436.25,
+    "meas_runtime_cycles": 271038549,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18601,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.450164,
+          "vol": 0.71966,
+          "power": 0.32396502424
+        }
+      }
+    },
+    "correct": false
+  },
+  "760.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.218579,
+          "vol": 0.759583,
+          "power": 0.16602889255699999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.509033,
+    "meas_ops_per_second": 232125.0,
+    "meas_runtime_cycles": 325243013,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 600,
+    "correct": false
+  },
+  "840.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13215,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.484062,
+          "vol": 0.839429,
+          "power": 0.40633568059799996
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.57727,
+    "meas_ops_per_second": 580338.75,
+    "meas_runtime_cycles": 813071622,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22323,
+    "correct": false
+  },
+  "750.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.557,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.092111,
+          "vol": 0.749403,
+          "power": 0.069028259733
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.616088,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203417,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.40502,
+          "vol": 0.829848,
+          "power": 0.33610503696
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.529418,
+    "meas_ops_per_second": 464256.0,
+    "meas_runtime_cycles": 650477455,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9732,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.365092,
+          "vol": 0.879552,
+          "power": 0.32111739878400003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.614013,
+    "meas_ops_per_second": 348212.25,
+    "meas_runtime_cycles": 487831403,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 625,
+    "correct": false
+  },
+  "860.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9732,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.351076,
+          "vol": 0.859591,
+          "power": 0.301781769916
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.589965,
+    "meas_ops_per_second": 348205.5,
+    "meas_runtime_cycles": 487838976,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7041,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.338364,
+          "vol": 0.729641,
+          "power": 0.246884247324
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.494018,
+    "meas_ops_per_second": 464247.0,
+    "meas_runtime_cycles": 650492317,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.115905,
+          "vol": 0.809687,
+          "power": 0.093846771735
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.616088,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203415,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "850.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 600,
+    "meas_fll_MHz": 600.46709,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.478195,
+          "vol": 0.84961,
+          "power": 0.40627925395
+        }
+      }
+    },
+    "correct": false
+  },
+  "800.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.163331,
+          "vol": 0.799506,
+          "power": 0.13058411448600002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.52539,
+    "meas_ops_per_second": 116064.0,
+    "meas_runtime_cycles": 162619775,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16937,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.547296,
+          "vol": 0.859591,
+          "power": 0.470450715936
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.515991,
+    "meas_ops_per_second": 657691.75,
+    "meas_runtime_cycles": 921517687,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9535,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.318481,
+          "vol": 0.809687,
+          "power": 0.25786992544700005
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.490478,
+    "meas_ops_per_second": 348185.25,
+    "meas_runtime_cycles": 487870365,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13215,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.45212,
+          "vol": 0.799506,
+          "power": 0.36147265272000006
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.449707,
+    "meas_ops_per_second": 580290.0,
+    "meas_runtime_cycles": 813138719,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18601,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.588365,
+          "vol": 0.879352,
+          "power": 0.51737993948
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.602294,
+    "meas_ops_per_second": 696420.0,
+    "meas_runtime_cycles": 975670219,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.350587,
+          "vol": 0.749403,
+          "power": 0.262730949561
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.476928,
+    "meas_ops_per_second": 464241.0,
+    "meas_runtime_cycles": 650499501,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.143122,
+          "vol": 0.869771,
+          "power": 0.12448336506199999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.613159,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203519,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 575,
+    "correct": false
+  },
+  "770.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 600,
+    "correct": false
+  },
+  "860.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.8424,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.638398,
+          "vol": 0.859591,
+          "power": 0.548761175218
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.481811,
+    "meas_ops_per_second": 812427.0,
+    "meas_runtime_cycles": 1138370498,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.518,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.334453,
+          "vol": 0.759583,
+          "power": 0.254044813099
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.512817,
+    "meas_ops_per_second": 425565.25,
+    "meas_runtime_cycles": 596277349,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.550": {
+    "correct": false
+  },
+  "740.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7041,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.34472,
+          "vol": 0.739821,
+          "power": 0.25503109512
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.507934,
+    "meas_ops_per_second": 464250.0,
+    "meas_runtime_cycles": 650486436,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.518,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.316689,
+          "vol": 0.729641,
+          "power": 0.23106927864899998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.464843,
+    "meas_ops_per_second": 425551.5,
+    "meas_runtime_cycles": 596295892,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18798,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.493841,
+          "vol": 0.769764,
+          "power": 0.380141023524
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.368774,
+    "meas_ops_per_second": 696312.0,
+    "meas_runtime_cycles": 975817437,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.183376,
+          "vol": 0.839429,
+          "power": 0.15393113230400002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.527465,
+    "meas_ops_per_second": 116064.0,
+    "meas_runtime_cycles": 162619561,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.355639,
+          "vol": 0.829848,
+          "power": 0.295126312872
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.526855,
+    "meas_ops_per_second": 386880.0,
+    "meas_runtime_cycles": 542065385,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 575,
+    "correct": false
+  },
+  "810.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.518,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.366722,
+          "vol": 0.809687,
+          "power": 0.29693003601400003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.508544,
+    "meas_ops_per_second": 425562.5,
+    "meas_runtime_cycles": 596279016,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 600,
+    "meas_fll_MHz": 600.46709,
+    "correct": false
+  },
+  "850.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 575,
+    "meas_fll_MHz": 575.44848,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.656977,
+          "vol": 0.84961,
+          "power": 0.55817422897
+        }
+      }
+    },
+    "correct": false
+  },
+  "850.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.187777,
+          "vol": 0.84961,
+          "power": 0.15953721697
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.528198,
+    "meas_ops_per_second": 116064.0,
+    "meas_runtime_cycles": 162619492,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.161049,
+          "vol": 0.84961,
+          "power": 0.13682884089
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.591308,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408570,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.307725,
+          "vol": 0.869771,
+          "power": 0.267650280975
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.547851,
+    "meas_ops_per_second": 270819.5,
+    "meas_runtime_cycles": 379440627,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.12624,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.429629,
+          "vol": 0.769564,
+          "power": 0.330627011756
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.45288,
+    "meas_ops_per_second": 580293.75,
+    "meas_runtime_cycles": 813137037,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.235691,
+          "vol": 0.839629,
+          "power": 0.197892998639
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.486572,
+    "meas_ops_per_second": 193435.0,
+    "meas_runtime_cycles": 271039789,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.313755,
+          "vol": 0.879552,
+          "power": 0.27596383776
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.552856,
+    "meas_ops_per_second": 270821.25,
+    "meas_runtime_cycles": 379439439,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.228846,
+          "vol": 0.829648,
+          "power": 0.189861626208
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.482299,
+    "meas_ops_per_second": 193435.0,
+    "meas_runtime_cycles": 271040511,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.411376,
+          "vol": 0.839429,
+          "power": 0.345320944304
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.529663,
+    "meas_ops_per_second": 464256.0,
+    "meas_runtime_cycles": 650477298,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18798,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.51845,
+          "vol": 0.799506,
+          "power": 0.4145038857
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.403442,
+    "meas_ops_per_second": 696330.0,
+    "meas_runtime_cycles": 975795568,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.276271,
+          "vol": 0.779745,
+          "power": 0.215420930895
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.540405,
+    "meas_ops_per_second": 309508.0,
+    "meas_runtime_cycles": 433648558,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11396,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.294361,
+          "vol": 0.729641,
+          "power": 0.21477785440099997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.457519,
+    "meas_ops_per_second": 386862.5,
+    "meas_runtime_cycles": 542089729,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.14879,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.435822,
+          "vol": 0.749403,
+          "power": 0.326606314266
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.437255,
+    "meas_ops_per_second": 618972.0,
+    "meas_runtime_cycles": 867354899,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.158767,
+          "vol": 0.789925,
+          "power": 0.125414022475
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.528686,
+    "meas_ops_per_second": 116064.0,
+    "meas_runtime_cycles": 162619442,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.625": {
+    "correct": false
+  },
+  "790.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.399316,
+          "vol": 0.789925,
+          "power": 0.3154296913
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.520385,
+    "meas_ops_per_second": 502944.0,
+    "meas_runtime_cycles": 704687973,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13215,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.517635,
+          "vol": 0.879552,
+          "power": 0.45528689951999995
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.6781,
+    "meas_ops_per_second": 580376.25,
+    "meas_runtime_cycles": 813018666,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.550": {
+    "correct": false
+  },
+  "810.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.293872,
+          "vol": 0.809687,
+          "power": 0.23794433806400003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.54895,
+    "meas_ops_per_second": 309508.0,
+    "meas_runtime_cycles": 433646143,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 625,
+    "correct": false
+  },
+  "800.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.335757,
+          "vol": 0.799506,
+          "power": 0.26843973604200005
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.540649,
+    "meas_ops_per_second": 386885.0,
+    "meas_runtime_cycles": 542060635,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.14879,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.466135,
+          "vol": 0.789925,
+          "power": 0.368211689875
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.482177,
+    "meas_ops_per_second": 618992.0,
+    "meas_runtime_cycles": 867329718,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22717,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.529206,
+          "vol": 0.779745,
+          "power": 0.41264573246999997
+        }
+      }
+    },
+    "correct": false
+  },
+  "750.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18601,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.477544,
+          "vol": 0.749603,
+          "power": 0.35796841503200005
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.381469,
+    "meas_ops_per_second": 696321.0,
+    "meas_runtime_cycles": 975809447,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 575,
+    "meas_fll_MHz": 575.44651,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.688757,
+          "vol": 0.879552,
+          "power": 0.6057975968639999
+        }
+      }
+    },
+    "correct": false
+  },
+  "820.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.224772,
+          "vol": 0.819668,
+          "power": 0.184238415696
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.477539,
+    "meas_ops_per_second": 193433.75,
+    "meas_runtime_cycles": 271041340,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.287354,
+          "vol": 0.879552,
+          "power": 0.252742785408
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.532592,
+    "meas_ops_per_second": 232129.5,
+    "meas_runtime_cycles": 325238047,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "880.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20856,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.610856,
+          "vol": 0.879552,
+          "power": 0.537279616512
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.563476,
+    "meas_ops_per_second": 735091.0,
+    "meas_runtime_cycles": 1029899977,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.392797,
+          "vol": 0.779745,
+          "power": 0.306281496765
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.51477,
+    "meas_ops_per_second": 502940.75,
+    "meas_runtime_cycles": 704690589,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 575,
+    "meas_fll_MHz": 575.44651,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.494167,
+          "vol": 0.839429,
+          "power": 0.414818110643
+        }
+      }
+    },
+    "correct": false
+  },
+  "790.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3971,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.184191,
+          "vol": 0.789925,
+          "power": 0.145497075675
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.459594,
+    "meas_ops_per_second": 154745.0,
+    "meas_runtime_cycles": 216835607,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13215,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.508834,
+          "vol": 0.869771,
+          "power": 0.442569057014
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.660888,
+    "meas_ops_per_second": 580372.5,
+    "meas_runtime_cycles": 813027685,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.1096,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.42914,
+          "vol": 0.799506,
+          "power": 0.34310000484000003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.575683,
+    "meas_ops_per_second": 541649.5,
+    "meas_runtime_cycles": 758867621,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22914,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.597003,
+          "vol": 0.839429,
+          "power": 0.501141631287
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.438842,
+    "meas_ops_per_second": 773715.0,
+    "meas_runtime_cycles": 1084192515,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 625,
+    "meas_fll_MHz": 625.16065,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.498078,
+          "vol": 0.859591,
+          "power": 0.428143366098
+        }
+      }
+    },
+    "correct": false
+  },
+  "780.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16937,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.479662,
+          "vol": 0.779745,
+          "power": 0.37401404619
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.43518,
+    "meas_ops_per_second": 657657.75,
+    "meas_runtime_cycles": 921565837,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.172131,
+          "vol": 0.819668,
+          "power": 0.141090272508
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.534301,
+    "meas_ops_per_second": 116064.75,
+    "meas_runtime_cycles": 162618850,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20856,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.556586,
+          "vol": 0.819668,
+          "power": 0.456215733448
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.413085,
+    "meas_ops_per_second": 735019.75,
+    "meas_runtime_cycles": 1030000067,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18601,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.470373,
+          "vol": 0.739821,
+          "power": 0.347991823233
+        }
+      }
+    },
+    "correct": false
+  },
+  "820.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.421481,
+          "vol": 0.819668,
+          "power": 0.345474488308
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.516601,
+    "meas_ops_per_second": 502940.75,
+    "meas_runtime_cycles": 704689734,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20659,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.531814,
+          "vol": 0.789725,
+          "power": 0.41998681115000003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.42163,
+    "meas_ops_per_second": 735024.5,
+    "meas_runtime_cycles": 1029994330,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.842,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.107105,
+          "vol": 0.719461,
+          "power": 0.077057870405
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.594604,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408333,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3774,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.203585,
+          "vol": 0.829848,
+          "power": 0.16894460508
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.447998,
+    "meas_ops_per_second": 154744.0,
+    "meas_runtime_cycles": 216837223,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20462,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.323208,
+          "vol": 0.71966,
+          "power": 0.23259986927999998
+        }
+      }
+    },
+    "correct": false
+  },
+  "810.650": {
+    "correct": false
+  },
+  "850.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9732,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.345209,
+          "vol": 0.84961,
+          "power": 0.29329301849
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.578247,
+    "meas_ops_per_second": 348203.25,
+    "meas_runtime_cycles": 487842676,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.2252,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.090971,
+          "vol": 0.759583,
+          "power": 0.06910002509299999
+        }
+      }
+    },
+    "correct": false
+  },
+  "750.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.10763,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.393775,
+          "vol": 0.749603,
+          "power": 0.295174921325
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.395629,
+    "meas_ops_per_second": 541586.5,
+    "meas_runtime_cycles": 758955962,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 600,
+    "meas_fll_MHz": 600.46709,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.71027,
+          "vol": 0.879552,
+          "power": 0.62471939904
+        }
+      }
+    },
+    "correct": false
+  },
+  "750.525": {
+    "correct": false
+  },
+  "770.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.270078,
+          "vol": 0.769764,
+          "power": 0.207896321592
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.526,
+    "meas_ops_per_second": 309504.0,
+    "meas_runtime_cycles": 433652581,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "870.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.384649,
+          "vol": 0.869771,
+          "power": 0.334556545379
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.526123,
+    "meas_ops_per_second": 386880.0,
+    "meas_runtime_cycles": 542065696,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22323,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.503619,
+          "vol": 0.749603,
+          "power": 0.377514313257
+        }
+      }
+    },
+    "correct": false
+  },
+  "720.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.082822,
+          "vol": 0.719461,
+          "power": 0.05958719894200001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.608764,
+    "meas_ops_per_second": 38690.0,
+    "meas_runtime_cycles": 54203670,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.242373,
+          "vol": 0.759583,
+          "power": 0.184102410459
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.53601,
+    "meas_ops_per_second": 270817.75,
+    "meas_runtime_cycles": 379443563,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.2252,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.552837,
+          "vol": 0.789725,
+          "power": 0.436589199825
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.468261,
+    "meas_ops_per_second": 773730.0,
+    "meas_runtime_cycles": 1084171858,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13215,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.459291,
+          "vol": 0.809687,
+          "power": 0.371881951917
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.482788,
+    "meas_ops_per_second": 580305.0,
+    "meas_runtime_cycles": 813121268,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.15076,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.498893,
+          "vol": 0.829848,
+          "power": 0.414005358264
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.464477,
+    "meas_ops_per_second": 618984.0,
+    "meas_runtime_cycles": 867339676,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.5377,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.373078,
+          "vol": 0.819668,
+          "power": 0.305800098104
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.515991,
+    "meas_ops_per_second": 425565.25,
+    "meas_runtime_cycles": 596276168,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.237321,
+          "vol": 0.749403,
+          "power": 0.17784906936300002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.533691,
+    "meas_ops_per_second": 270817.75,
+    "meas_runtime_cycles": 379444126,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 650,
+    "meas_fll_MHz": 650.17926,
+    "correct": false
+  },
+  "790.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.25867,
+          "vol": 0.789925,
+          "power": 0.20432989975000002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.540283,
+    "meas_ops_per_second": 270819.5,
+    "meas_runtime_cycles": 379442509,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3971,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.21972,
+          "vol": 0.859591,
+          "power": 0.18886933452
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.483398,
+    "meas_ops_per_second": 154748.0,
+    "meas_runtime_cycles": 216832255,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.369655,
+          "vol": 0.84961,
+          "power": 0.31406258455
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.514892,
+    "meas_ops_per_second": 386877.5,
+    "meas_runtime_cycles": 542069629,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22914,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.570275,
+          "vol": 0.809687,
+          "power": 0.461744253925
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.448852,
+    "meas_ops_per_second": 773720.0,
+    "meas_runtime_cycles": 1084185491,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11396,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.288983,
+          "vol": 0.71966,
+          "power": 0.20796950577999998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.492187,
+    "meas_ops_per_second": 386872.5,
+    "meas_runtime_cycles": 542077549,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3755,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.223631,
+          "vol": 0.769564,
+          "power": 0.17209836688400001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.520996,
+    "meas_ops_per_second": 232128.0,
+    "meas_runtime_cycles": 325240480,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16937,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.457172,
+          "vol": 0.749403,
+          "power": 0.34260606831600005
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.349365,
+    "meas_ops_per_second": 657619.5,
+    "meas_runtime_cycles": 921616922,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 550,
+    "correct": false
+  },
+  "770.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.318481,
+          "vol": 0.769564,
+          "power": 0.24509151228400003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.496582,
+    "meas_ops_per_second": 386872.5,
+    "meas_runtime_cycles": 542076009,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16937,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.464506,
+          "vol": 0.759583,
+          "power": 0.352830860998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.371582,
+    "meas_ops_per_second": 657632.25,
+    "meas_runtime_cycles": 921603681,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1915,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.134321,
+          "vol": 0.729641,
+          "power": 0.098006108761
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.530029,
+    "meas_ops_per_second": 116064.75,
+    "meas_runtime_cycles": 162619297,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.550": {
+    "correct": false
+  },
+  "750.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.117861,
+          "vol": 0.749603,
+          "power": 0.088348959183
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.586303,
+    "meas_ops_per_second": 77379.0,
+    "meas_runtime_cycles": 108408918,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.550": {
+    "correct": false
+  },
+  "870.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3776,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.225424,
+          "vol": 0.869771,
+          "power": 0.196067257904
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.509643,
+    "meas_ops_per_second": 154750.0,
+    "meas_runtime_cycles": 216828584,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9732,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.359225,
+          "vol": 0.869771,
+          "power": 0.312443487475
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.601684,
+    "meas_ops_per_second": 348210.0,
+    "meas_runtime_cycles": 487835298,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.550": {
+    "correct": false
+  },
+  "840.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3755,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.261278,
+          "vol": 0.839429,
+          "power": 0.21932433026200002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.519531,
+    "meas_ops_per_second": 232126.5,
+    "meas_runtime_cycles": 325240793,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.149967,
+          "vol": 0.769564,
+          "power": 0.115409204388
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.529907,
+    "meas_ops_per_second": 116064.0,
+    "meas_runtime_cycles": 162619314,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.260463,
+          "vol": 0.879552,
+          "power": 0.229090752576
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.519165,
+    "meas_ops_per_second": 193438.75,
+    "meas_runtime_cycles": 271034060,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.3765,
+          "vol": 0.789725,
+          "power": 0.29733146250000003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.528442,
+    "meas_ops_per_second": 464256.0,
+    "meas_runtime_cycles": 650477797,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.376174,
+          "vol": 0.859591,
+          "power": 0.323355784834
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.513793,
+    "meas_ops_per_second": 386877.5,
+    "meas_runtime_cycles": 542070007,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3973,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.19837,
+          "vol": 0.819668,
+          "power": 0.16259754115999997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.474609,
+    "meas_ops_per_second": 154747.0,
+    "meas_runtime_cycles": 216833487,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.15076,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.532955,
+          "vol": 0.869771,
+          "power": 0.4635488033049999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.562255,
+    "meas_ops_per_second": 619024.0,
+    "meas_runtime_cycles": 867284885,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 550,
+    "meas_fll_MHz": 550.10088,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.587551,
+          "vol": 0.789925,
+          "power": 0.464121223675
+        }
+      }
+    },
+    "correct": false
+  },
+  "860.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9296,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.451794,
+          "vol": 0.859591,
+          "power": 0.388358056254
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.559448,
+    "meas_ops_per_second": 502953.75,
+    "meas_runtime_cycles": 704670188,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.8902,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.352869,
+          "vol": 0.71966,
+          "power": 0.25394570454
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.468505,
+    "meas_ops_per_second": 502924.5,
+    "meas_runtime_cycles": 704711640,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.193318,
+          "vol": 0.859591,
+          "power": 0.16617441293799998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.52832,
+    "meas_ops_per_second": 116064.0,
+    "meas_runtime_cycles": 162619473,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3774,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.174413,
+          "vol": 0.769764,
+          "power": 0.134256848532
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.464477,
+    "meas_ops_per_second": 154746.0,
+    "meas_runtime_cycles": 216834906,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.214178,
+          "vol": 0.799506,
+          "power": 0.171236596068
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.47937,
+    "meas_ops_per_second": 193433.75,
+    "meas_runtime_cycles": 271041024,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.253129,
+          "vol": 0.779745,
+          "power": 0.197376072105
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.541992,
+    "meas_ops_per_second": 270819.5,
+    "meas_runtime_cycles": 379442078,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11396,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.305607,
+          "vol": 0.749403,
+          "power": 0.22902280262100003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.486572,
+    "meas_ops_per_second": 386870.0,
+    "meas_runtime_cycles": 542079532,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.14573,
+          "vol": 0.759583,
+          "power": 0.11069403059
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.530517,
+    "meas_ops_per_second": 116064.75,
+    "meas_runtime_cycles": 162619247,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 575,
+    "meas_fll_MHz": 575.44651,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.666919,
+          "vol": 0.859591,
+          "power": 0.573277570129
+        }
+      }
+    },
+    "correct": false
+  },
+  "720.425": {
+    "correct": false
+  },
+  "750.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 550,
+    "correct": false
+  },
+  "730.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "840.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9535,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.338201,
+          "vol": 0.839429,
+          "power": 0.283895727229
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.564453,
+    "meas_ops_per_second": 348201.0,
+    "meas_runtime_cycles": 487847048,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.11157,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.475914,
+          "vol": 0.859591,
+          "power": 0.409091391174
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.698974,
+    "meas_ops_per_second": 541691.5,
+    "meas_runtime_cycles": 758807199,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.575": {
+    "correct": false
+  },
+  "860.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.137092,
+          "vol": 0.859591,
+          "power": 0.11784304937199999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.610595,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203610,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.264374,
+          "vol": 0.799506,
+          "power": 0.211368599244
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.551269,
+    "meas_ops_per_second": 270821.25,
+    "meas_runtime_cycles": 379439811,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 600,
+    "correct": false
+  },
+  "780.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.369981,
+          "vol": 0.779745,
+          "power": 0.288490834845
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.505371,
+    "meas_ops_per_second": 464250.0,
+    "meas_runtime_cycles": 650487551,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 525,
+    "correct": false
+  },
+  "840.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 600,
+    "meas_fll_MHz": 600.46906,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.464995,
+          "vol": 0.839429,
+          "power": 0.39033028785499996
+        }
+      }
+    },
+    "correct": false
+  },
+  "720.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7041,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.33266,
+          "vol": 0.71966,
+          "power": 0.2394020956
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.502441,
+    "meas_ops_per_second": 464250.0,
+    "meas_runtime_cycles": 650488766,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.8424,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.658444,
+          "vol": 0.879552,
+          "power": 0.579135737088
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.488525,
+    "meas_ops_per_second": 812427.0,
+    "meas_runtime_cycles": 1138365536,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18798,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.569624,
+          "vol": 0.859591,
+          "power": 0.48964366378400004
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.580688,
+    "meas_ops_per_second": 696411.0,
+    "meas_runtime_cycles": 975683869,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 550,
+    "meas_fll_MHz": 550.10285,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.661704,
+          "vol": 0.859591,
+          "power": 0.568794803064
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.533203,
+    "meas_ops_per_second": 851141.5,
+    "meas_runtime_cycles": 1192538985,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.132366,
+          "vol": 0.84961,
+          "power": 0.11245947726000001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.613159,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203519,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7674,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.333149,
+          "vol": 0.869771,
+          "power": 0.28976333887899997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.551269,
+    "meas_ops_per_second": 309510.0,
+    "meas_runtime_cycles": 433645504,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.137744,
+          "vol": 0.799506,
+          "power": 0.11012715446400001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.595458,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408279,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.340972,
+          "vol": 0.879552,
+          "power": 0.299902604544
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.562133,
+    "meas_ops_per_second": 309512.0,
+    "meas_runtime_cycles": 433642450,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3774,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.153226,
+          "vol": 0.71966,
+          "power": 0.11027062316
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.440673,
+    "meas_ops_per_second": 154744.0,
+    "meas_runtime_cycles": 216838232,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.124054,
+          "vol": 0.829848,
+          "power": 0.102945963792
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.614746,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203464,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.1674,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.449023,
+          "vol": 0.739821,
+          "power": 0.332196644883
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.347656,
+    "meas_ops_per_second": 657619.5,
+    "meas_runtime_cycles": 921617898,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18798,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.552185,
+          "vol": 0.839429,
+          "power": 0.463520102365
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.551635,
+    "meas_ops_per_second": 696397.5,
+    "meas_runtime_cycles": 975702126,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20659,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.514701,
+          "vol": 0.769564,
+          "power": 0.396095360364
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.400146,
+    "meas_ops_per_second": 735015.0,
+    "meas_runtime_cycles": 1030008643,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 600,
+    "correct": false
+  },
+  "880.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.444134,
+          "vol": 0.879552,
+          "power": 0.39063894796799997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.544311,
+    "meas_ops_per_second": 464262.0,
+    "meas_runtime_cycles": 650471167,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.13041,
+          "vol": 0.71966,
+          "power": 0.09385086059999999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.540527,
+    "meas_ops_per_second": 116065.5,
+    "meas_runtime_cycles": 162618188,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "720.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.199837,
+          "vol": 0.71966,
+          "power": 0.14381469541999997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.528198,
+    "meas_ops_per_second": 232128.0,
+    "meas_runtime_cycles": 325238991,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.413984,
+          "vol": 0.809687,
+          "power": 0.335197463008
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.525146,
+    "meas_ops_per_second": 502944.0,
+    "meas_runtime_cycles": 704685796,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22914,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.635465,
+          "vol": 0.879552,
+          "power": 0.5589245116799999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.462036,
+    "meas_ops_per_second": 773730.0,
+    "meas_runtime_cycles": 1084176261,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16937,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.556586,
+          "vol": 0.869771,
+          "power": 0.484102361806
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.526245,
+    "meas_ops_per_second": 657696.0,
+    "meas_runtime_cycles": 921511637,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.382856,
+          "vol": 0.799506,
+          "power": 0.306095669136
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.527832,
+    "meas_ops_per_second": 464256.0,
+    "meas_runtime_cycles": 650478056,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 600,
+    "correct": false
+  },
+  "790.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13018,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.44446,
+          "vol": 0.789925,
+          "power": 0.3510900655
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.429443,
+    "meas_ops_per_second": 580282.5,
+    "meas_runtime_cycles": 813149337,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20856,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.5486,
+          "vol": 0.809687,
+          "power": 0.4441942882
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.401977,
+    "meas_ops_per_second": 735015.0,
+    "meas_runtime_cycles": 1030007403,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.378782,
+          "vol": 0.759583,
+          "power": 0.287716367906
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.515258,
+    "meas_ops_per_second": 502940.75,
+    "meas_runtime_cycles": 704690281,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9535,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.288494,
+          "vol": 0.759583,
+          "power": 0.219135138002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.51831,
+    "meas_ops_per_second": 348189.75,
+    "meas_runtime_cycles": 487861560,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.1096,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.374218,
+          "vol": 0.71966,
+          "power": 0.26930972587999996
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.410278,
+    "meas_ops_per_second": 541593.5,
+    "meas_runtime_cycles": 758948708,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 575,
+    "correct": false
+  },
+  "750.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 625,
+    "correct": false
+  },
+  "720.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.222653,
+          "vol": 0.71966,
+          "power": 0.16023445798
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.542724,
+    "meas_ops_per_second": 270819.5,
+    "meas_runtime_cycles": 379441929,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9732,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.300391,
+          "vol": 0.779745,
+          "power": 0.234228380295
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.467651,
+    "meas_ops_per_second": 348178.5,
+    "meas_runtime_cycles": 487877530,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13018,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.467765,
+          "vol": 0.819668,
+          "power": 0.38341200202
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.519531,
+    "meas_ops_per_second": 580316.25,
+    "meas_runtime_cycles": 813101929,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "870.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 600,
+    "meas_fll_MHz": 600.46512,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.697232,
+          "vol": 0.869771,
+          "power": 0.606432173872
+        }
+      }
+    },
+    "correct": false
+  },
+  "770.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.803,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.541755,
+          "vol": 0.769764,
+          "power": 0.41702349582
+        }
+      }
+    },
+    "correct": false
+  },
+  "850.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7674,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.320274,
+          "vol": 0.84961,
+          "power": 0.27210799314
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.528198,
+    "meas_ops_per_second": 309504.0,
+    "meas_runtime_cycles": 433651965,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.265515,
+          "vol": 0.759583,
+          "power": 0.201680680245
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.481079,
+    "meas_ops_per_second": 309496.0,
+    "meas_runtime_cycles": 433665164,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.2252,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.331356,
+          "vol": 0.729641,
+          "power": 0.241770923196
+        }
+      }
+    },
+    "correct": false
+  },
+  "750.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.190873,
+          "vol": 0.749603,
+          "power": 0.143078973419
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.488769,
+    "meas_ops_per_second": 193435.0,
+    "meas_runtime_cycles": 271039402,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.096023,
+          "vol": 0.759583,
+          "power": 0.072937438409
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.613159,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203520,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22914,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.615908,
+          "vol": 0.859591,
+          "power": 0.529428973628
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.448852,
+    "meas_ops_per_second": 773720.0,
+    "meas_runtime_cycles": 1084185451,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.110364,
+          "vol": 0.729641,
+          "power": 0.080526099324
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.588989,
+    "meas_ops_per_second": 77379.0,
+    "meas_runtime_cycles": 108408734,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.208637,
+          "vol": 0.789725,
+          "power": 0.164765854825
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.483032,
+    "meas_ops_per_second": 193435.0,
+    "meas_runtime_cycles": 271040391,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22914,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.625686,
+          "vol": 0.869771,
+          "power": 0.544203537906
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.444824,
+    "meas_ops_per_second": 773720.0,
+    "meas_runtime_cycles": 1084188239,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3776,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.193481,
+          "vol": 0.809687,
+          "power": 0.156659050447
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.460205,
+    "meas_ops_per_second": 154746.0,
+    "meas_runtime_cycles": 216835508,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.5377,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.402413,
+          "vol": 0.859591,
+          "power": 0.34591059308300004
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.568969,
+    "meas_ops_per_second": 425579.0,
+    "meas_runtime_cycles": 596255713,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.155997,
+          "vol": 0.839429,
+          "power": 0.13094840571299998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.59497,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408315,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 575,
+    "correct": false
+  },
+  "770.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.125032,
+          "vol": 0.769564,
+          "power": 0.09622012604800001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.59082,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408611,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.460431,
+          "vol": 0.869771,
+          "power": 0.40046953130099994
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.567504,
+    "meas_ops_per_second": 502957.0,
+    "meas_runtime_cycles": 704666570,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 625,
+    "correct": false
+  },
+  "870.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.435659,
+          "vol": 0.869771,
+          "power": 0.378923564089
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.536499,
+    "meas_ops_per_second": 464259.0,
+    "meas_runtime_cycles": 650474452,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.329401,
+          "vol": 0.789925,
+          "power": 0.260202084925
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.518676,
+    "meas_ops_per_second": 386877.5,
+    "meas_runtime_cycles": 542068274,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13018,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.422133,
+          "vol": 0.759583,
+          "power": 0.320645050539
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.434448,
+    "meas_ops_per_second": 580286.25,
+    "meas_runtime_cycles": 813146672,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.8227,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.566853,
+          "vol": 0.799506,
+          "power": 0.45320237461800006
+        }
+      }
+    },
+    "correct": false
+  },
+  "840.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3776,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.209289,
+          "vol": 0.839429,
+          "power": 0.17568325598099999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.471191,
+    "meas_ops_per_second": 154747.0,
+    "meas_runtime_cycles": 216833967,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.842,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.176695,
+          "vol": 0.879552,
+          "power": 0.15541244063999998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.59143,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408562,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1915,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.141818,
+          "vol": 0.749403,
+          "power": 0.10627883465400001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.523437,
+    "meas_ops_per_second": 116064.0,
+    "meas_runtime_cycles": 162619991,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.173109,
+          "vol": 0.869771,
+          "power": 0.15056518803900001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.59436,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408350,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13018,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.395242,
+          "vol": 0.71966,
+          "power": 0.28443985771999997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.42041,
+    "meas_ops_per_second": 580282.5,
+    "meas_runtime_cycles": 813154048,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20659,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.583476,
+          "vol": 0.84961,
+          "power": 0.49572704436
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.456054,
+    "meas_ops_per_second": 735038.75,
+    "meas_runtime_cycles": 1029971462,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.209126,
+          "vol": 0.739821,
+          "power": 0.154715806446
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.518554,
+    "meas_ops_per_second": 232126.5,
+    "meas_runtime_cycles": 325240997,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.15076,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.515516,
+          "vol": 0.84961,
+          "power": 0.43798754875999996
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.508544,
+    "meas_ops_per_second": 619000.0,
+    "meas_runtime_cycles": 867314942,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.194948,
+          "vol": 0.759583,
+          "power": 0.148079186684
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.485473,
+    "meas_ops_per_second": 193435.0,
+    "meas_runtime_cycles": 271039970,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16937,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.488463,
+          "vol": 0.789925,
+          "power": 0.385849135275
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.488159,
+    "meas_ops_per_second": 657679.0,
+    "meas_runtime_cycles": 921534260,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13215,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.491722,
+          "vol": 0.84961,
+          "power": 0.41777192842
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.611938,
+    "meas_ops_per_second": 580353.75,
+    "meas_runtime_cycles": 813053469,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11396,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.300717,
+          "vol": 0.739821,
+          "power": 0.22247675165699998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.45288,
+    "meas_ops_per_second": 386862.5,
+    "meas_runtime_cycles": 542091322,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.11157,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.414962,
+          "vol": 0.779745,
+          "power": 0.32356454469
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.510131,
+    "meas_ops_per_second": 541628.5,
+    "meas_runtime_cycles": 758899771,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.363299,
+          "vol": 0.839429,
+          "power": 0.304963716271
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.519409,
+    "meas_ops_per_second": 386877.5,
+    "meas_runtime_cycles": 542068016,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 525,
+    "correct": false
+  },
+  "830.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20659,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.565223,
+          "vol": 0.829848,
+          "power": 0.46904917610400004
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.42102,
+    "meas_ops_per_second": 735024.5,
+    "meas_runtime_cycles": 1029994780,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.15076,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.489767,
+          "vol": 0.819668,
+          "power": 0.401446337356
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.467895,
+    "meas_ops_per_second": 618984.0,
+    "meas_runtime_cycles": 867337755,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.205541,
+          "vol": 0.879552,
+          "power": 0.180783997632
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.533325,
+    "meas_ops_per_second": 116064.75,
+    "meas_runtime_cycles": 162618945,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22717,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.560986,
+          "vol": 0.799506,
+          "power": 0.448511672916
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.45581,
+    "meas_ops_per_second": 773725.0,
+    "meas_runtime_cycles": 1084180598,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.153715,
+          "vol": 0.779745,
+          "power": 0.11985850267499999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.533447,
+    "meas_ops_per_second": 116064.75,
+    "meas_runtime_cycles": 162618931,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.176695,
+          "vol": 0.71966,
+          "power": 0.1271603237
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.476684,
+    "meas_ops_per_second": 193433.75,
+    "meas_runtime_cycles": 271041489,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.14879,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.458313,
+          "vol": 0.779745,
+          "power": 0.35736727018500003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.479003,
+    "meas_ops_per_second": 618988.0,
+    "meas_runtime_cycles": 867331490,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 575,
+    "correct": false
+  },
+  "730.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.1674,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.442178,
+          "vol": 0.729641,
+          "power": 0.322631198098
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.346679,
+    "meas_ops_per_second": 657619.5,
+    "meas_runtime_cycles": 921618483,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.2252,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.521057,
+          "vol": 0.769564,
+          "power": 0.400986709148
+        }
+      }
+    },
+    "correct": false
+  },
+  "740.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.366559,
+          "vol": 0.739821,
+          "power": 0.271188045939
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.478881,
+    "meas_ops_per_second": 502927.75,
+    "meas_runtime_cycles": 704706894,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 550,
+    "meas_fll_MHz": 550.10285,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.651436,
+          "vol": 0.84961,
+          "power": 0.55346653996
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.518432,
+    "meas_ops_per_second": 851130.5,
+    "meas_runtime_cycles": 1192550357,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13018,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.475425,
+          "vol": 0.829848,
+          "power": 0.3945304854
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.553222,
+    "meas_ops_per_second": 580331.25,
+    "meas_runtime_cycles": 813084303,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.323208,
+          "vol": 0.779745,
+          "power": 0.25201982196
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.514648,
+    "meas_ops_per_second": 386877.5,
+    "meas_runtime_cycles": 542069683,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.15076,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.422296,
+          "vol": 0.729841,
+          "power": 0.308208934936
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.35205,
+    "meas_ops_per_second": 618940.0,
+    "meas_runtime_cycles": 867402696,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16543,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.538007,
+          "vol": 0.84961,
+          "power": 0.45709612727
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.526733,
+    "meas_ops_per_second": 657696.0,
+    "meas_runtime_cycles": 921511270,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7674,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.326467,
+          "vol": 0.859591,
+          "power": 0.280628094997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.538208,
+    "meas_ops_per_second": 309506.0,
+    "meas_runtime_cycles": 433649163,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.254596,
+          "vol": 0.869771,
+          "power": 0.221440217516
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.514282,
+    "meas_ops_per_second": 193438.75,
+    "meas_runtime_cycles": 271034911,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.177835,
+          "vol": 0.829848,
+          "power": 0.14757601908
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.528076,
+    "meas_ops_per_second": 116064.0,
+    "meas_runtime_cycles": 162619503,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7674,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.300391,
+          "vol": 0.819668,
+          "power": 0.246220890188
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.541015,
+    "meas_ops_per_second": 309508.0,
+    "meas_runtime_cycles": 433648387,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.149152,
+          "vol": 0.879352,
+          "power": 0.131157109504
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.612304,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203548,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.251336,
+          "vol": 0.819668,
+          "power": 0.206012076448
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.516723,
+    "meas_ops_per_second": 232126.5,
+    "meas_runtime_cycles": 325241382,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "810.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 625,
+    "correct": false
+  },
+  "870.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 625,
+    "meas_fll_MHz": 625.15868,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.511931,
+          "vol": 0.869771,
+          "power": 0.445262737801
+        }
+      }
+    },
+    "correct": false
+  },
+  "860.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.247425,
+          "vol": 0.859591,
+          "power": 0.212684303175
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.49475,
+    "meas_ops_per_second": 193436.25,
+    "meas_runtime_cycles": 271038346,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16937,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.503456,
+          "vol": 0.809687,
+          "power": 0.40764177827200004
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.532592,
+    "meas_ops_per_second": 657700.25,
+    "meas_runtime_cycles": 921507803,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 550,
+    "meas_fll_MHz": 550.10285,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.680445,
+          "vol": 0.879552,
+          "power": 0.59848676064
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.533081,
+    "meas_ops_per_second": 851141.5,
+    "meas_runtime_cycles": 1192539167,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18995,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.543711,
+          "vol": 0.829848,
+          "power": 0.4511974859280001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.520263,
+    "meas_ops_per_second": 696384.0,
+    "meas_runtime_cycles": 975721929,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 600,
+    "correct": false
+  },
+  "850.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.444297,
+          "vol": 0.84961,
+          "power": 0.37747917417
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.550048,
+    "meas_ops_per_second": 502953.75,
+    "meas_runtime_cycles": 704674513,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 550,
+    "meas_fll_MHz": 550.10088,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.617538,
+          "vol": 0.829848,
+          "power": 0.512462674224
+        }
+      }
+    },
+    "correct": false
+  },
+  "810.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18995,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.525784,
+          "vol": 0.809687,
+          "power": 0.42572046960800003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.441894,
+    "meas_ops_per_second": 696348.0,
+    "meas_runtime_cycles": 975771314,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.274479,
+          "vol": 0.859591,
+          "power": 0.235939678089
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.526611,
+    "meas_ops_per_second": 232128.0,
+    "meas_runtime_cycles": 325239308,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 625,
+    "correct": false
+  },
+  "840.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 550,
+    "meas_fll_MHz": 550.10088,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.641332,
+          "vol": 0.839429,
+          "power": 0.538352679428
+        }
+      }
+    },
+    "correct": false
+  },
+  "750.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9732,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.283279,
+          "vol": 0.749403,
+          "power": 0.212290132437
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.517089,
+    "meas_ops_per_second": 348189.75,
+    "meas_runtime_cycles": 487861939,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.1674,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.472491,
+          "vol": 0.769564,
+          "power": 0.36361206392400003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.395751,
+    "meas_ops_per_second": 657640.75,
+    "meas_runtime_cycles": 921589313,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9732,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.277738,
+          "vol": 0.739821,
+          "power": 0.20547640489799998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.499145,
+    "meas_ops_per_second": 348185.25,
+    "meas_runtime_cycles": 487867602,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 575,
+    "correct": false
+  },
+  "850.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.420503,
+          "vol": 0.84961,
+          "power": 0.35726355383
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.534301,
+    "meas_ops_per_second": 464259.0,
+    "meas_runtime_cycles": 650475417,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.11157,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.460431,
+          "vol": 0.839429,
+          "power": 0.386499133899
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.66394,
+    "meas_ops_per_second": 541681.0,
+    "meas_runtime_cycles": 758824381,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.247751,
+          "vol": 0.769564,
+          "power": 0.19066025056400002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.544433,
+    "meas_ops_per_second": 270819.5,
+    "meas_runtime_cycles": 379441470,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9732,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.32386,
+          "vol": 0.819668,
+          "power": 0.26545767847999996
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.50708,
+    "meas_ops_per_second": 348187.5,
+    "meas_runtime_cycles": 487865129,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.5377,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.379922,
+          "vol": 0.829848,
+          "power": 0.315277511856
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.532104,
+    "meas_ops_per_second": 425570.75,
+    "meas_runtime_cycles": 596269966,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.450": {
+    "correct": false
+  },
+  "750.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.213853,
+          "vol": 0.749403,
+          "power": 0.160262079759
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.496826,
+    "meas_ops_per_second": 232123.5,
+    "meas_runtime_cycles": 325245557,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.428163,
+          "vol": 0.859591,
+          "power": 0.368045061333
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.537963,
+    "meas_ops_per_second": 464259.0,
+    "meas_runtime_cycles": 650473887,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.22914,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.606618,
+          "vol": 0.84961,
+          "power": 0.5153887189799999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.443237,
+    "meas_ops_per_second": 773720.0,
+    "meas_runtime_cycles": 1084189482,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20659,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.485203,
+          "vol": 0.739821,
+          "power": 0.358963368663
+        }
+      }
+    },
+    "correct": false
+  },
+  "820.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 550,
+    "meas_fll_MHz": 550.10285,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.606293,
+          "vol": 0.819668,
+          "power": 0.49695897072399997
+        }
+      }
+    },
+    "correct": false
+  },
+  "820.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.146544,
+          "vol": 0.819668,
+          "power": 0.120117427392
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.596069,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408244,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.15076,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.539962,
+          "vol": 0.879552,
+          "power": 0.47492465702400005
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.575683,
+    "meas_ops_per_second": 619028.0,
+    "meas_runtime_cycles": 867277300,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.227868,
+          "vol": 0.729641,
+          "power": 0.166261835388
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.522705,
+    "meas_ops_per_second": 270816.0,
+    "meas_runtime_cycles": 379446809,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.11157,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.493352,
+          "vol": 0.879552,
+          "power": 0.43392873830400003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.727905,
+    "meas_ops_per_second": 541702.0,
+    "meas_runtime_cycles": 758793038,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.392308,
+          "vol": 0.879552,
+          "power": 0.345055286016
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.537841,
+    "meas_ops_per_second": 386882.5,
+    "meas_runtime_cycles": 542061563,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.8227,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.619167,
+          "vol": 0.839429,
+          "power": 0.519746735643
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.488525,
+    "meas_ops_per_second": 812427.0,
+    "meas_runtime_cycles": 1138365614,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.099934,
+          "vol": 0.769764,
+          "power": 0.076925595576
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.615478,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203440,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 600,
+    "correct": false
+  },
+  "800.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3776,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.188266,
+          "vol": 0.799506,
+          "power": 0.150519796596
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.449218,
+    "meas_ops_per_second": 154744.0,
+    "meas_runtime_cycles": 216837036,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16937,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.566038,
+          "vol": 0.879552,
+          "power": 0.49785985497600005
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.54309,
+    "meas_ops_per_second": 657704.5,
+    "meas_runtime_cycles": 921501583,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3774,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.165612,
+          "vol": 0.749403,
+          "power": 0.12411012963600002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.450073,
+    "meas_ops_per_second": 154745.0,
+    "meas_runtime_cycles": 216836927,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "880.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 880,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.5377,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.417243,
+          "vol": 0.879552,
+          "power": 0.36698691513599996
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.585937,
+    "meas_ops_per_second": 425584.5,
+    "meas_runtime_cycles": 596249187,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.518,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.346839,
+          "vol": 0.779745,
+          "power": 0.27044597605500004
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.489746,
+    "meas_ops_per_second": 425557.0,
+    "meas_runtime_cycles": 596286260,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "750.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.518,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.32826,
+          "vol": 0.749403,
+          "power": 0.24599902878000002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.506958,
+    "meas_ops_per_second": 425562.5,
+    "meas_runtime_cycles": 596279586,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.254107,
+          "vol": 0.739622,
+          "power": 0.18794312755400003
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.454345,
+    "meas_ops_per_second": 309490.0,
+    "meas_runtime_cycles": 433672680,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.518,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.353195,
+          "vol": 0.789725,
+          "power": 0.27892692137499997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.495239,
+    "meas_ops_per_second": 425559.75,
+    "meas_runtime_cycles": 596284144,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.8227,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.567016,
+          "vol": 0.789925,
+          "power": 0.44790011379999994
+        }
+      }
+    },
+    "correct": false
+  },
+  "750.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 750,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.261115,
+          "vol": 0.749403,
+          "power": 0.195680364345
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.454711,
+    "meas_ops_per_second": 309490.0,
+    "meas_runtime_cycles": 433672555,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3774,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.21483,
+          "vol": 0.84961,
+          "power": 0.1825217163
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.499389,
+    "meas_ops_per_second": 154749.0,
+    "meas_runtime_cycles": 216830016,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 600,
+    "correct": false
+  },
+  "800.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20659,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.539473,
+          "vol": 0.799506,
+          "power": 0.431311900338
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.398071,
+    "meas_ops_per_second": 735010.25,
+    "meas_runtime_cycles": 1030010037,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.803,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.558378,
+          "vol": 0.779745,
+          "power": 0.43539245361000006
+        }
+      }
+    },
+    "correct": false
+  },
+  "820.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.349446,
+          "vol": 0.819668,
+          "power": 0.286429703928
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.54895,
+    "meas_ops_per_second": 386885.0,
+    "meas_runtime_cycles": 542057635,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.14682,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.482433,
+          "vol": 0.809687,
+          "power": 0.390619728471
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.484497,
+    "meas_ops_per_second": 618992.0,
+    "meas_runtime_cycles": 867328423,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.219068,
+          "vol": 0.809687,
+          "power": 0.17737651171600002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.470581,
+    "meas_ops_per_second": 193433.75,
+    "meas_runtime_cycles": 271042552,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.557,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.119654,
+          "vol": 0.819668,
+          "power": 0.098076554872
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.614135,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203484,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.1096,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.407302,
+          "vol": 0.769564,
+          "power": 0.313444956328
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.460693,
+    "meas_ops_per_second": 541611.0,
+    "meas_runtime_cycles": 758924005,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18798,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.560823,
+          "vol": 0.84961,
+          "power": 0.47648082902999994
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.559326,
+    "meas_ops_per_second": 696397.5,
+    "meas_runtime_cycles": 975697277,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.125": {
+    "cfg_repetitions": 100000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 125,
+    "meas_fll_MHz": 125.5834,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.185332,
+          "vol": 0.739821,
+          "power": 0.137112505572
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.47644,
+    "meas_ops_per_second": 193433.75,
+    "meas_runtime_cycles": 271041528,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.14879,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.428977,
+          "vol": 0.739821,
+          "power": 0.317366193117
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.379272,
+    "meas_ops_per_second": 618948.0,
+    "meas_runtime_cycles": 867387422,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.359714,
+          "vol": 0.729841,
+          "power": 0.26253402547399995
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.435913,
+    "meas_ops_per_second": 502914.75,
+    "meas_runtime_cycles": 704726493,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.518,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.360203,
+          "vol": 0.799506,
+          "power": 0.287984459718
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.506713,
+    "meas_ops_per_second": 425562.5,
+    "meas_runtime_cycles": 596279761,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.342113,
+          "vol": 0.809687,
+          "power": 0.277004448631
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.545776,
+    "meas_ops_per_second": 386885.0,
+    "meas_runtime_cycles": 542058815,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.14879,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.473958,
+          "vol": 0.799506,
+          "power": 0.378932264748
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.480346,
+    "meas_ops_per_second": 618992.0,
+    "meas_runtime_cycles": 867330756,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.1096,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.484551,
+          "vol": 0.869771,
+          "power": 0.421448407821
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.712036,
+    "meas_ops_per_second": 541698.5,
+    "meas_runtime_cycles": 758800798,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.375": {
+    "cfg_repetitions": 300000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 375,
+    "meas_fll_MHz": 375.13018,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.40828,
+          "vol": 0.739821,
+          "power": 0.30205411788
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.478759,
+    "meas_ops_per_second": 580301.25,
+    "meas_runtime_cycles": 813123400,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.1096,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.422296,
+          "vol": 0.789725,
+          "power": 0.3334977086
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.553222,
+    "meas_ops_per_second": 541642.5,
+    "meas_runtime_cycles": 758878632,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.300": {
+    "cfg_repetitions": 240000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 300,
+    "meas_fll_MHz": 300.7238,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.356943,
+          "vol": 0.759583,
+          "power": 0.271127834769
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.489624,
+    "meas_ops_per_second": 464244.0,
+    "meas_runtime_cycles": 650494147,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 625,
+    "correct": false
+  },
+  "860.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.165775,
+          "vol": 0.859591,
+          "power": 0.142498698025
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.598632,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408056,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.14682,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.41431,
+          "vol": 0.719461,
+          "power": 0.29807988691000004
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.306274,
+    "meas_ops_per_second": 618920.0,
+    "meas_runtime_cycles": 867428261,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9732,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.330541,
+          "vol": 0.829848,
+          "power": 0.274298787768
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.546508,
+    "meas_ops_per_second": 348196.5,
+    "meas_runtime_cycles": 487852700,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.15076,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.523828,
+          "vol": 0.859591,
+          "power": 0.45027783434799995
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.533447,
+    "meas_ops_per_second": 619012.0,
+    "meas_runtime_cycles": 867301002,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18798,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.535073,
+          "vol": 0.819668,
+          "power": 0.43858221576399997
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.480834,
+    "meas_ops_per_second": 696366.0,
+    "meas_runtime_cycles": 975746741,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20659,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.477706,
+          "vol": 0.729641,
+          "power": 0.34855388354600003
+        }
+      }
+    },
+    "correct": false
+  },
+  "760.250": {
+    "cfg_repetitions": 200000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 250,
+    "meas_fll_MHz": 250.11593,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.311963,
+          "vol": 0.759583,
+          "power": 0.236961791429
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.476318,
+    "meas_ops_per_second": 386867.5,
+    "meas_runtime_cycles": 542083113,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.500": {
+    "cfg_repetitions": 400000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 500,
+    "meas_fll_MHz": 500.2252,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.587225,
+          "vol": 0.829848,
+          "power": 0.4873074918
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.434814,
+    "meas_ops_per_second": 773715.0,
+    "meas_runtime_cycles": 1084195310,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "850.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 850,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.8227,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.628457,
+          "vol": 0.84961,
+          "power": 0.5339433517700001
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.486328,
+    "meas_ops_per_second": 812427.0,
+    "meas_runtime_cycles": 1138367180,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.1096,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.443971,
+          "vol": 0.819668,
+          "power": 0.363908821628
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.62854,
+    "meas_ops_per_second": 541667.0,
+    "meas_runtime_cycles": 758841725,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "820.425": {
+    "cfg_repetitions": 340000,
+    "cfg_core_mV": 820,
+    "cfg_fll_MHz": 425,
+    "meas_fll_MHz": 425.16937,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.511605,
+          "vol": 0.819668,
+          "power": 0.41934624713999996
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.535034,
+    "meas_ops_per_second": 657700.25,
+    "meas_runtime_cycles": 921506350,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "860.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 600,
+    "meas_fll_MHz": 600.46709,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.688757,
+          "vol": 0.85979,
+          "power": 0.59218638103
+        }
+      }
+    },
+    "correct": false
+  },
+  "840.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 625,
+    "correct": false
+  },
+  "720.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9535,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.266982,
+          "vol": 0.71966,
+          "power": 0.19213626611999998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.476562,
+    "meas_ops_per_second": 348180.75,
+    "meas_runtime_cycles": 487874719,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9535,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.312777,
+          "vol": 0.799506,
+          "power": 0.250067088162
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.471679,
+    "meas_ops_per_second": 348180.75,
+    "meas_runtime_cycles": 487876288,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.75": {
+    "cfg_repetitions": 60000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 75,
+    "meas_fll_MHz": 75.1913,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.137744,
+          "vol": 0.739821,
+          "power": 0.101905903824
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.526977,
+    "meas_ops_per_second": 116064.0,
+    "meas_runtime_cycles": 162619616,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3755,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.204563,
+          "vol": 0.729641,
+          "power": 0.149257551883
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.517944,
+    "meas_ops_per_second": 232126.5,
+    "meas_runtime_cycles": 325241119,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.234224,
+          "vol": 0.789725,
+          "power": 0.1849725484
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.519287,
+    "meas_ops_per_second": 232126.5,
+    "meas_runtime_cycles": 325240845,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3774,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.178813,
+          "vol": 0.779745,
+          "power": 0.139428542685
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.457397,
+    "meas_ops_per_second": 154745.0,
+    "meas_runtime_cycles": 216835905,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.175": {
+    "cfg_repetitions": 140000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 175,
+    "meas_fll_MHz": 175.5616,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.287354,
+          "vol": 0.839429,
+          "power": 0.241213280866
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.537353,
+    "meas_ops_per_second": 270817.75,
+    "meas_runtime_cycles": 379443238,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.31294,
+          "vol": 0.839429,
+          "power": 0.26269091126
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.521728,
+    "meas_ops_per_second": 309504.0,
+    "meas_runtime_cycles": 433653749,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.10763,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.387256,
+          "vol": 0.739821,
+          "power": 0.286500121176
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.422607,
+    "meas_ops_per_second": 541597.0,
+    "meas_runtime_cycles": 758942692,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "780.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.228683,
+          "vol": 0.779745,
+          "power": 0.178314425835
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.519653,
+    "meas_ops_per_second": 232126.5,
+    "meas_runtime_cycles": 325240754,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.525": {
+    "cfg_repetitions": 420000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 525,
+    "meas_fll_MHz": 525.803,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.359062,
+          "vol": 0.759583,
+          "power": 0.272737391146
+        }
+      }
+    },
+    "correct": false
+  },
+  "830.325": {
+    "cfg_repetitions": 260000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 325,
+    "meas_fll_MHz": 325.9099,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.428,
+          "vol": 0.829848,
+          "power": 0.355174944
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.53125,
+    "meas_ops_per_second": 502947.25,
+    "meas_runtime_cycles": 704683056,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 625,
+    "meas_fll_MHz": 625.16065,
+    "correct": false
+  },
+  "860.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 860,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "730.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3774,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.159582,
+          "vol": 0.729641,
+          "power": 0.11643757006199999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.443725,
+    "meas_ops_per_second": 154744.0,
+    "meas_runtime_cycles": 216837831,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.275": {
+    "cfg_repetitions": 220000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 275,
+    "meas_fll_MHz": 275.5377,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.388071,
+          "vol": 0.839429,
+          "power": 0.325758051459
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.544433,
+    "meas_ops_per_second": 425573.5,
+    "meas_runtime_cycles": 596265239,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "830.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 830,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.842,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.151434,
+          "vol": 0.829848,
+          "power": 0.12566720203200002
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.596801,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408182,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "810.150": {
+    "cfg_repetitions": 120000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 150,
+    "meas_fll_MHz": 150.3558,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.245306,
+          "vol": 0.809687,
+          "power": 0.198621079222
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.509887,
+    "meas_ops_per_second": 232125.0,
+    "meas_runtime_cycles": 325242803,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "870.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18995,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.579728,
+          "vol": 0.869771,
+          "power": 0.504230602288
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.606567,
+    "meas_ops_per_second": 696420.0,
+    "meas_runtime_cycles": 975667489,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "720.550": {
+    "cfg_repetitions": 440000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 550,
+    "correct": false
+  },
+  "760.350": {
+    "cfg_repetitions": 280000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 350,
+    "meas_fll_MHz": 350.11157,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.400783,
+          "vol": 0.759583,
+          "power": 0.304427953489
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.416625,
+    "meas_ops_per_second": 541593.5,
+    "meas_runtime_cycles": 758945653,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 625,
+    "correct": false
+  },
+  "760.600": {
+    "cfg_repetitions": 480000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 600,
+    "correct": false
+  },
+  "810.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 810,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.142144,
+          "vol": 0.809487,
+          "power": 0.115063720128
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.59436,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408358,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "870.475": {
+    "cfg_repetitions": 380000,
+    "cfg_core_mV": 870,
+    "cfg_fll_MHz": 475,
+    "meas_fll_MHz": 475.20856,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.60287,
+          "vol": 0.869771,
+          "power": 0.52435884277
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.535644,
+    "meas_ops_per_second": 735076.75,
+    "meas_runtime_cycles": 1029918434,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "770.400": {
+    "cfg_repetitions": 320000,
+    "cfg_core_mV": 770,
+    "cfg_fll_MHz": 400,
+    "meas_fll_MHz": 400.15076,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.451142,
+          "vol": 0.769764,
+          "power": 0.347272870488
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.509277,
+    "meas_ops_per_second": 619000.0,
+    "meas_runtime_cycles": 867314582,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.450": {
+    "cfg_repetitions": 360000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 450,
+    "meas_fll_MHz": 450.18798,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.485366,
+          "vol": 0.759583,
+          "power": 0.36867576237800004
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.380493,
+    "meas_ops_per_second": 696321.0,
+    "meas_runtime_cycles": 975810079,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "840.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 840,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.129269,
+          "vol": 0.839429,
+          "power": 0.10851214740099999
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.610839,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203600,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.50": {
+    "cfg_repetitions": 40000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 50,
+    "meas_fll_MHz": 50.84,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.121936,
+          "vol": 0.759583,
+          "power": 0.092620512688
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.595581,
+    "meas_ops_per_second": 77379.5,
+    "meas_runtime_cycles": 108408276,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "760.100": {
+    "cfg_repetitions": 80000,
+    "cfg_core_mV": 760,
+    "cfg_fll_MHz": 100,
+    "meas_fll_MHz": 100.3774,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.170502,
+          "vol": 0.759583,
+          "power": 0.129510420666
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.469482,
+    "meas_ops_per_second": 154746.0,
+    "meas_runtime_cycles": 216834201,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "790.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 790,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.28279,
+          "vol": 0.789925,
+          "power": 0.22338289074999998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.537231,
+    "meas_ops_per_second": 309506.0,
+    "meas_runtime_cycles": 433649439,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "730.625": {
+    "cfg_repetitions": 500000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 625,
+    "correct": false
+  },
+  "780.650": {
+    "cfg_repetitions": 520000,
+    "cfg_core_mV": 780,
+    "cfg_fll_MHz": 650,
+    "correct": false
+  },
+  "730.225": {
+    "cfg_repetitions": 180000,
+    "cfg_core_mV": 730,
+    "cfg_fll_MHz": 225,
+    "meas_fll_MHz": 225.9535,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.27236,
+          "vol": 0.729641,
+          "power": 0.19872502275999998
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.491821,
+    "meas_ops_per_second": 348185.25,
+    "meas_runtime_cycles": 487869915,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "800.575": {
+    "cfg_repetitions": 460000,
+    "cfg_core_mV": 800,
+    "cfg_fll_MHz": 575,
+    "meas_fll_MHz": 575.44848,
+    "correct": false
+  },
+  "720.200": {
+    "cfg_repetitions": 160000,
+    "cfg_core_mV": 720,
+    "cfg_fll_MHz": 200,
+    "meas_fll_MHz": 200.7477,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.244817,
+          "vol": 0.71966,
+          "power": 0.17618500222
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.453735,
+    "meas_ops_per_second": 309490.0,
+    "meas_runtime_cycles": 433672822,
+    "meas_errors": 0,
+    "correct": true
+  },
+  "740.25": {
+    "cfg_repetitions": 20000,
+    "cfg_core_mV": 740,
+    "cfg_fll_MHz": 25,
+    "meas_fll_MHz": 25.36,
+    "meas_core_V": {
+      "E36312A_1": {
+        "1": {
+          "cur": 0.088689,
+          "vol": 0.739821,
+          "power": 0.065613984669
+        }
+      }
+    },
+    "meas_ops_per_cycle": 1547.613769,
+    "meas_ops_per_second": 38690.25,
+    "meas_runtime_cycles": 54203500,
+    "meas_errors": 0,
+    "correct": true
+  }
+}

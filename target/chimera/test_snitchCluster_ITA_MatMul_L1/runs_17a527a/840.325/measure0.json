@@ -1,0 +1,20 @@
+[
+{"cfg_repetitions": 260000},
+{"cfg_core_mV": 840},
+{"cfg_fll_MHz": 325},
+{"meas_fll_MHz": 325.9296},
+{"meas_core_V": {"E36312A_1": {"1": {"cur": 0.436311, "vol": 0.839429, "power": 0.36625210641899997}}}},
+{"meas_ops_per_cycle": 1547.544921},
+{"meas_ops_per_second": 502950.5},
+{"meas_runtime_cycles": 704676804},
+{"meas_errors": 0},
+{"cfg_repetitions": 260000},
+{"cfg_core_mV": 840},
+{"cfg_fll_MHz": 325},
+{"meas_fll_MHz": 325.9099},
+{"meas_core_V": {"E36312A_1": {"1": {"cur": 0.4368, "vol": 0.839429, "power": 0.3666625872}}}},
+{"meas_ops_per_cycle": 1547.542846},
+{"meas_ops_per_second": 502950.5},
+{"meas_runtime_cycles": 704677767},
+{"meas_errors": 0}
+]

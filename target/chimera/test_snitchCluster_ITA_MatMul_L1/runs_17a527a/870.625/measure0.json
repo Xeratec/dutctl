@@ -1,0 +1,7 @@
+[
+{"cfg_repetitions": 500000},
+{"cfg_core_mV": 870},
+{"cfg_fll_MHz": 625},
+{"meas_fll_MHz": 625.15868},
+{"meas_core_V": {"E36312A_1": {"1": {"cur": 0.511931, "vol": 0.869771, "power": 0.445262737801}}}}
+]

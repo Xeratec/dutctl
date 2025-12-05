@@ -1,0 +1,6 @@
+[
+{"cfg_repetitions": 400000},
+{"cfg_core_mV": 720},
+{"cfg_fll_MHz": 500},
+{"meas_fll_MHz": 500.22323}
+]
